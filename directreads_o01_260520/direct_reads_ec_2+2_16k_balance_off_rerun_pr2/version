@@ -1,0 +1,1 @@
+ceph -[ceph: root@o01 /]# ceph -v
