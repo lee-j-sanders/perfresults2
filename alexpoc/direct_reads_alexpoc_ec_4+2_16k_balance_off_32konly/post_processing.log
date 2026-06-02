@@ -1,0 +1,657 @@
+2026-06-02 11:52:43 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2026-06-02 12:23:41 - INFO - report generate:90 : Creating directory /tmp/cbt/results/00000000/id-af5b1975/report to contain the reports
+2026-06-02 12:23:41 - DEBUG - report _generate_intermediate_files:143 : Creating directory /tmp/cbt/results/00000000/id-af5b1975/visualisation/
+2026-06-02 12:23:41 - INFO - report _generate_intermediate_files:146 : Generating intermediate files for /tmp/cbt/results/00000000/id-af5b1975 in directory /tmp/cbt/results/00000000/id-af5b1975/visualisation/
+2026-06-02 12:23:41 - INFO - common_output_formatter convert_all_files:88 : Converting all files with name json_output in directory /tmp/cbt/results/00000000/id-af5b1975
+2026-06-02 12:23:41 - DEBUG - common_output_formatter _find_all_results_files_in_directory:167 : Finding all json_output* files from /tmp/cbt/results/00000000/id-af5b1975
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:94 : Looking at test run with id id-af5b1975
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-af5b1975/.soko07.front.sepia.ceph.com
+2026-06-02 12:23:41 - WARNING - run_result process:76 : test run with directory /tmp/cbt/results/00000000/id-af5b1975/.soko07.front.sepia.ceph.com has no files - not doing any conversion
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-384/iodepth-000024/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 384
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 384 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 20 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-320/iodepth-000020/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 320
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 320 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-32/iodepth-000002/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000002/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-24/iodepth-000001/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-256/iodepth-000016/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 256
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 256 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-6/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 12
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 12 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-128/iodepth-000008/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 128
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 128 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.8
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.9
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.11
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.10
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.12
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.14
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.15
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-64/iodepth-000004/json_output.13
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 64
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 64 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-af5b1975/32krandomread.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2026-06-02 12:23:41 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-06-02 12:23:41 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.0 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.2 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.5 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.6 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.7 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.11 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.12 as it is from a precondition operation
+2026-06-02 12:23:41 - WARNING - run_result _process_test_run_files:102 : Not processing file /tmp/cbt/results/00000000/id-af5b1975/precondition.soko07.front.sepia.ceph.com/numjobs-001/total_iodepth-16/iodepth-000001/json_output.15 as it is from a precondition operation
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-af5b1975/report
+2026-06-02 12:23:41 - WARNING - run_result process:76 : test run with directory /tmp/cbt/results/00000000/id-af5b1975/report has no files - not doing any conversion
+2026-06-02 12:23:41 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-af5b1975/visualisation
+2026-06-02 12:23:41 - WARNING - run_result process:76 : test run with directory /tmp/cbt/results/00000000/id-af5b1975/visualisation has no files - not doing any conversion
+2026-06-02 12:23:41 - INFO - common_output_formatter write_output_file:151 : writing new format files to /tmp/cbt/results/00000000/id-af5b1975/visualisation/
+2026-06-02 12:23:41 - INFO - common_output_formatter write_output_file:159 : Writing formatted results to destination file /tmp/cbt/results/00000000/id-af5b1975/visualisation/32768_randread.json
+2026-06-02 12:23:41 - INFO - simple_report_generator _add_summary_table:61 : Generating summary table
+2026-06-02 12:23:41 - DEBUG - simple_report_generator _add_summary_table:81 : Looking at file /tmp/cbt/results/00000000/id-af5b1975/visualisation/32768_randread.json
