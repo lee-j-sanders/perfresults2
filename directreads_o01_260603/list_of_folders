@@ -1,0 +1,16 @@
+total 0
+drwxr-xr-x. 4 root root 94 Jun  2 10:45 direct_reads_3_way_replica_balance_reads_off_pr2_rerun
+drwxr-xr-x. 4 root root 94 Jun  3 09:27 direct_reads_3_way_replica_balance_reads_on_pr2_split_256k
+drwxr-xr-x. 4 root root 94 May 20 09:02 direct_reads_3_way_replica_balance_reads_on_run2
+drwxr-xr-x. 4 root root 94 Jun  1 12:59 direct_reads_ec_2+2_16k_balance_off_rerun_pr2
+drwxr-xr-x. 4 root root 94 May 30 11:18 direct_reads_ec_2+2_16k_balance_reads_on_rerun_pr2
+drwxr-xr-x. 4 root root 94 Jun  1 13:00 direct_reads_ec_4+2_16k_balance_off_rerun_pr2
+drwxr-xr-x. 4 root root 94 Jun  1 12:57 direct_reads_ec_4+2_16k_balance_reads_on_rerun_pr2
+drwxr-xr-x. 4 root root 94 May 26 10:31 direct_reads_ec_6+2_16k_balance_off_pr2
+drwxr-xr-x. 4 root root 94 Jun  1 12:57 direct_reads_ec_6+2_16k_balance_reads_on_rerun_pr2
+-rw-r-----. 1 root root  0 Jun  3 14:29 list_of_folders
+drwxr-xr-x. 4 root root 79 May  7 02:05 tentacle_3_way_replica_balance_reads_off
+drwxr-xr-x. 4 root root 79 May 12 04:02 tentacle_3_way_replica_balance_reads_on
+drwxr-xr-x. 4 root root 79 May 17 11:12 tentacle_ec_2+2_16k_balance_off_run2
+drwxr-xr-x. 4 root root 94 May 22 10:49 tentacle_ec_4+2_16k_balance_off
+drwxr-xr-x. 4 root root 94 May 23 10:58 tentacle_ec_6+2_16k_balance_off
