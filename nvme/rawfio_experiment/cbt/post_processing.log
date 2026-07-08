@@ -1,0 +1,898 @@
+2026-07-08 08:23:14 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2026-07-08 09:07:23 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2026-07-08 09:19:33 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2026-07-08 09:19:33 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2026-07-08 09:19:33 - INFO - generate_performance_report <module>:70 : === Starting Post Processing of CBT results ===
+2026-07-08 09:19:33 - INFO - report generate:90 : Creating directory /tmp/cbt to contain the reports
+2026-07-08 09:19:33 - DEBUG - report _generate_intermediate_files:143 : Creating directory /tmp/cbt/visualisation/
+2026-07-08 09:19:33 - INFO - report _generate_intermediate_files:146 : Generating intermediate files for /tmp/cbt in directory /tmp/cbt/visualisation/
+2026-07-08 09:19:33 - INFO - common_output_formatter convert_all_files:88 : Converting all files with name json_output in directory /tmp/cbt
+2026-07-08 09:19:33 - DEBUG - common_output_formatter _find_all_results_files_in_directory:167 : Finding all json_output* files from /tmp/cbt
+2026-07-08 09:19:33 - DEBUG - common_output_formatter convert_all_files:94 : Looking at test run with id id-98c5f702
+2026-07-08 09:19:33 - DEBUG - common_output_formatter convert_all_files:118 : Looking at results for directory /tmp/cbt/results/00000000/id-98c5f702/randwrite
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-002/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 2
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 2 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-003/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 3
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 3 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-004/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 4
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 4 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-005/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 5
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 5 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-006/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 6
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 6 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 7 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-007/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 7
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 7 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-008/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 8
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 8 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 9 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-009/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 9
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 9 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 10 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-010/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 10
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 10 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-016/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 16
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 16 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-024/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 24
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 24 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-032/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 32
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 32 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-048/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 48
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 48 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.0
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.1
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.10
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.11
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.12
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.13
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.14
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.15
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.2
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.3
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.4
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.5
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.6
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.7
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.8
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - DEBUG - run_result _process_test_run_files:99 : Processing file /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:108 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-98c5f702/randwrite/iodepth-001/json_output.9
+2026-07-08 09:19:33 - DEBUG - fio _get_iodepth:137 : iodepth value is 1
+2026-07-08 09:19:33 - DEBUG - run_result _convert_file:137 : We have details for iodepth 1 so using them
+2026-07-08 09:19:33 - INFO - common_output_formatter write_output_file:151 : writing new format files to /tmp/cbt/visualisation/
+2026-07-08 09:19:33 - INFO - common_output_formatter write_output_file:159 : Writing formatted results to destination file /tmp/cbt/visualisation/4096_randwrite.json
+2026-07-08 09:19:33 - INFO - simple_report_generator _add_summary_table:61 : Generating summary table
+2026-07-08 09:19:33 - DEBUG - simple_report_generator _add_summary_table:81 : Looking at file /tmp/cbt/visualisation/4096_randwrite.json

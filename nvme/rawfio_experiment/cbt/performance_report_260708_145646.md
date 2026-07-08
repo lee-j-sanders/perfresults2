@@ -1,0 +1,98 @@
+
+Performance Report for cbt
+==========================
+
+Table of contents
+=================
+
+* [Summary of results for cbt](#summary-of-results-for-cbt)
+* [Response Curves](#response-curves)
+	* [Number of Jobs 1](#number-of-jobs-1)
+		* [Random Write](#random-write)
+* [Configuration yaml](#configuration-yaml)
+
+# Summary of results for cbt
+  
+|Workload Name|Number of Jobs|Maximum Throughput|Latency (ms)|  
+| :--- | :---: | ---: | ---: |  
+|[4K  Random Write](#4096-1-randwrite)|1|59049 IOps|12.7|4.67|
+# Response Curves
+
+## Number of Jobs 1
+
+### Random Write
+
+|||
+| :---: | :---: |
+|<a name="4096-1-randwrite"></a>![4K  Random Write](plots.260708_145646/4096_1_randwrite.svg)||
+
+# Configuration yaml
+
+
+```benchmarks:
+  rawfio:
+    block_devices:
+    - /dev/nvme8n1
+    - /dev/nvme8n2
+    - /dev/nvme8n3
+    - /dev/nvme8n4
+    - /dev/nvme8n5
+    - /dev/nvme8n6
+    - /dev/nvme8n7
+    - /dev/nvme8n8
+    - /dev/nvme8n9
+    - /dev/nvme8n10
+    - /dev/nvme8n11
+    - /dev/nvme8n12
+    - /dev/nvme8n13
+    - /dev/nvme8n14
+    - /dev/nvme8n15
+    - /dev/nvme8n16
+    client_ra: 128
+    concurrent_procs: 16
+    direct: 1
+    fio_cmd: /usr/local/bin/fio
+    iodepth:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 16
+    - 24
+    - 32
+    - 48
+    ioengine: libaio
+    iterations: 1
+    mode:
+    - randwrite
+    numjobs: 1
+    op_size:
+    - 4096
+    osd_ra:
+    - 4096
+    ramp: 10
+    time: 10
+    vol_size: 100
+cluster:
+  archive_dir: /tmp/cbt
+  clients:
+  - --- server1 ---
+  head: --- server1 ---
+  iterations: 1
+  osds:
+  - --- server1 ---
+  osds_per_node: 6
+  pdsh_ssh_args: -a -x -l%u %h
+  tmp_dir: /tmp/cbt
+  use_existing: true
+  user: root
+monitoring_profiles:
+  collectl:
+    args: -c 18 -sCD -i 10 -P -oz -F0 --rawtoo --sep ";" -f {collectl_dir}
+```
