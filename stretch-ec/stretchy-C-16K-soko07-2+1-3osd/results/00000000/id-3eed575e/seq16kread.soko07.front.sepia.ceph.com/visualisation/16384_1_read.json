@@ -1,0 +1,238 @@
+{
+    "12": {
+        "bandwidth_bytes": "687857390.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "11.78",
+            "fio": "0.85"
+        },
+        "io_bytes": "41272131584.0",
+        "iops": "41983.483608",
+        "latency": "283145.340822467",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "46879.091597888175",
+        "total_ios": "2519051"
+    },
+    "128": {
+        "bandwidth_bytes": "1855071868.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "26.09",
+            "fio": "2.00"
+        },
+        "io_bytes": "111306276864.0",
+        "iops": "113222.735048",
+        "latency": "1127882.0591934205",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "568112.0900795461",
+        "total_ios": "6793484"
+    },
+    "16": {
+        "bandwidth_bytes": "860207369.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "15.14",
+            "fio": "1.13"
+        },
+        "io_bytes": "51613302784.0",
+        "iops": "52502.891617999994",
+        "latency": "301774.81900126894",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "55888.594637082286",
+        "total_ios": "3150226"
+    },
+    "192": {
+        "bandwidth_bytes": "1886075855.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "25.89",
+            "fio": "2.01"
+        },
+        "io_bytes": "113167613952.0",
+        "iops": "115114.00173599999",
+        "latency": "1665341.2813500015",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "951625.403537248",
+        "total_ios": "6907027"
+    },
+    "2": {
+        "bandwidth_bytes": "130806310.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "2.26",
+            "fio": "0.15"
+        },
+        "io_bytes": "7848509440.0",
+        "iops": "7983.783603",
+        "latency": "248015.927815287",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "39064.60390823348",
+        "total_ios": "479035"
+    },
+    "24": {
+        "bandwidth_bytes": "1102682979.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "18.25",
+            "fio": "1.31"
+        },
+        "io_bytes": "66162081792.0",
+        "iops": "67302.294962",
+        "latency": "353783.94415364927",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "67545.57391365632",
+        "total_ios": "4038205"
+    },
+    "288": {
+        "bandwidth_bytes": "1907425022.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "26.06",
+            "fio": "1.99"
+        },
+        "io_bytes": "114450268160.0",
+        "iops": "116415.45161600002",
+        "latency": "2471308.1724365973",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "1456869.9928816399",
+        "total_ios": "6985218"
+    },
+    "32": {
+        "bandwidth_bytes": "1292586754.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "20.62",
+            "fio": "1.44"
+        },
+        "io_bytes": "77556498432.0",
+        "iops": "78892.96845",
+        "latency": "402894.4561126327",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "80648.36736205428",
+        "total_ios": "4733657"
+    },
+    "4": {
+        "bandwidth_bytes": "252023224.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "4.36",
+            "fio": "0.30"
+        },
+        "io_bytes": "15121645568.0",
+        "iops": "15382.276962",
+        "latency": "257563.7981616253",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "40960.309787672704",
+        "total_ios": "922952"
+    },
+    "64": {
+        "bandwidth_bytes": "1666622875.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "24.94",
+            "fio": "1.86"
+        },
+        "io_bytes": "99999039488.0",
+        "iops": "101721.78796999999",
+        "latency": "626442.6959287442",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "219191.59281104413",
+        "total_ios": "6103409"
+    },
+    "8": {
+        "bandwidth_bytes": "482084334.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "8.21",
+            "fio": "0.56"
+        },
+        "io_bytes": "28925542400.0",
+        "iops": "29424.092931",
+        "latency": "269370.6101351523",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "42628.476636082916",
+        "total_ios": "1765475"
+    },
+    "96": {
+        "bandwidth_bytes": "1798986748.0",
+        "blocksize": "16384",
+        "cpu": {
+            "collectl": "26.04",
+            "fio": "1.96"
+        },
+        "io_bytes": "107941117952.0",
+        "iops": "109800.087743",
+        "latency": "871639.6344137363",
+        "memory": {
+            "collectl": "0.00",
+            "fio": "0.00"
+        },
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "395586.4335853207",
+        "total_ios": "6588122"
+    },
+    "benchmark": "rbdfio",
+    "latency_at_max_bandwidth": "2.4713081724365975",
+    "latency_at_max_iops": "2.4713081724365975",
+    "maximum_bandwidth": "1907425022.0",
+    "maximum_cpu_usage": "26.09",
+    "maximum_iops": "116415.45161600002",
+    "maximum_memory_usage": "0",
+    "number_of_jobs": "1"
+}
