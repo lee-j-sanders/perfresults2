@@ -1,0 +1,3 @@
+[ljsanders@soko07 ~]$ ceph -v
+ceph version 20.2.4 (7f793731f1b39eb4f465e960113d2363c311b964) tentacle (stable)
+[ljsanders@soko07 ~]$
