@@ -1,0 +1,2 @@
+ ceph -v
+ceph version 22.0.0-84-g5e284977 (5e284977de096caf86c22c4fd2412aca25d3e786) vampire (dev)

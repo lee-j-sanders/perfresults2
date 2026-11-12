@@ -1,0 +1,976 @@
+################################################################################
+# Collectl:   V4.3.1-1  HiRes: 1  Options: -c 18 -oz -sZC -i 10 --sep ; -F0 -P -f /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000002/collectl 
+# Host:       soko07  DaemonOpts: 
+# Booted:     1772455826.29 [20260302-07:50:26]
+# Distro:     Red Hat Enterprise Linux release 9.7 (Plow)  Platform: 
+# Date:       20261103-200133  Secs: 1793754093 TZ: -0500
+# SubSys:     ZC Options: z Interval: 10:60 NumCPUs: 80 [HYPER] NumBud: 0 Flags: ix
+# Filters:    NfsFilt:  EnvFilt:  TcpFilt: ituc
+# HZ:         100  Arch: x86_64-linux-thread-multi PageSize: 4096
+# Cpu:        GenuineIntel Speed(MHz): 2869.606 Cores: 20  Siblings: 40 Nodes: 2
+# Kernel:     5.14.0-611.26.1.el9_7.x86_64  Memory: 263082012 kB  Swap: 4194300 kB
+# NumDisks:   16 DiskNames: nvme0n1 nvme2n1 nvme5n1 nvme3n1 nvme1n1 nvme6n1 nvme4n1 dm-0 dm-1 dm-2 dm-3 dm-4 dm-5 dm-6 dm-7 dm-8
+# NumNets:    5 NetNames: lo:?? eno12399np0:25000 eno8303:?? eno8403:?? eno12409np1:??
+# SCSI:       CD:12:00:00:00
+################################################################################
+#Date;Time;PID;User;PR;PPID;THRD;S;VmSize;VmLck;VmRSS;VmData;VmStk;VmExe;VmLib;CPU;SysT;UsrT;PCT;AccumT;RKB;WKB;RKBC;WKBC;RSYS;WSYS;CNCL;MajF;MinF;Command
+20261103;20:02:34;1;root;20;0;0;S;179312;0;12508;25600;1032;44;12788;1;0.03;0.01;0;2:09:45;0;0;69;3;82;4;0;0;32;/usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31 
+20261103;20:02:34;10;root;20;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:12:14;0;0;0;0;0;0;0;0;0;kworker/u320:0-bnxt_pf_wq
+20261103;20:02:34;1000106;root;20;2;0;I;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/54:2
+20261103;20:02:34;1000842;root;20;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/5:2-events
+20261103;20:02:34;1000874;root;20;2;0;I;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/73:0-cgroup_destroy
+20261103;20:02:34;1000941;root;20;2;0;I;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/55:0-events
+20261103;20:02:34;1002597;root;20;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/59:1-cgwb_release
+20261103;20:02:34;1002718;root;20;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/61:0-events
+20261103;20:02:34;1004007;root;20;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/79:1-cgroup_bpf_destroy
+20261103;20:02:34;1004128;root;20;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/0:0-mm_percpu_wq
+20261103;20:02:34;1004129;root;20;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/1:0-mm_percpu_wq
+20261103;20:02:34;1004130;root;20;2;0;I;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/52:2-cgroup_destroy
+20261103;20:02:34;1004243;root;20;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/7:1
+20261103;20:02:34;1005965;root;20;2;0;I;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:1-events_unbound
+20261103;20:02:34;1005966;root;20;2;0;I;0;0;0;0;0;0;0;9;0.11;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:2-flush-253:8
+20261103;20:02:34;1006256;root;20;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/13:1
+20261103;20:02:34;1006257;root;20;2;0;I;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/75:1-rcu_gp
+20261103;20:02:34;1008569;root;20;2;0;I;0;0;0;0;0;0;0;47;0.04;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:6-events_unbound
+20261103;20:02:34;1008570;root;20;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:7-flush-253:0
+20261103;20:02:34;1008571;root;20;2;0;I;0;0;0;0;0;0;0;68;0.06;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u321:3-events_unbound
+20261103;20:02:34;1008623;root;20;2;0;I;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/71:0
+20261103;20:02:34;1008744;root;20;2;0;I;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/67:1
+20261103;20:02:34;1008745;root;20;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/5:1-rcu_gp
+20261103;20:02:34;1008746;root;20;2;0;I;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/49:2-events
+20261103;20:02:34;1011177;root;20;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/35:2
+20261103;20:02:34;1011178;root;20;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/59:0-cgroup_destroy
+20261103;20:02:34;1011179;root;20;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/59:3
+20261103;20:02:34;1011362;root;20;2;0;I;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/55:1-events
+20261103;20:02:34;1011459;root;20;3809655;3;S;69452;0;2768;780;256;104;1916;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-8 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 
+20261103;20:02:34;1011466;root;20;1011459;0;S;12604;0;9924;868;136;508;6524;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ssh -oConnectTimeout=10 -2 -a -x soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-8 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.8 
+20261103;20:02:34;1011467;root;20;3809655;0;Z;69456;0;2768;780;260;104;1916;11;0.00;0.00;0;0:00:00;0;0;1;0;2;0;0;0;1;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-9 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.9 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.9 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.9 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.9 
+20261103;20:02:34;1011473;root;20;3809655;0;Z;69452;0;2768;780;256;104;1916;25;0.00;0.00;0;0:00:00;0;0;1;0;2;0;0;0;1;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-10 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.10 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.10 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.10 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.10 
+20261103;20:02:34;1011474;root;20;353593;0;S;21272;0;13012;1768;132;572;11252;40;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;1011479;root;20;3809655;3;S;69456;0;2772;780;260;104;1916;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-11 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 
+20261103;20:02:34;1011485;root;20;1011479;0;S;12604;0;9924;868;136;508;6524;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ssh -oConnectTimeout=10 -2 -a -x soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-11 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 
+20261103;20:02:34;1011486;root;20;3809655;0;Z;69452;0;2768;780;256;104;1916;29;0.00;0.00;0;0:00:00;0;0;1;0;2;0;0;0;1;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-12 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.12 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.12 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.12 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.12 
+20261103;20:02:34;1011488;root;20;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/21:1
+20261103;20:02:34;1011494;root;20;353593;0;S;21268;0;13016;1764;132;572;11252;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;1011495;root;20;3809655;0;Z;69460;0;2772;780;264;104;1916;6;0.00;0.00;0;0:00:00;0;0;1;0;2;0;0;0;1;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-13 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.13 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.13 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.13 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.13 
+20261103;20:02:34;1011502;root;20;3809655;3;S;69456;0;2772;780;260;104;1916;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-14 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 
+20261103;20:02:34;1011509;root;20;1011502;0;S;12604;0;9996;868;136;508;6524;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ssh -oConnectTimeout=10 -2 -a -x soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-14 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 
+20261103;20:02:34;1011510;root;20;3809655;3;S;69452;0;2768;780;256;104;1916;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-15 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 
+20261103;20:02:34;1011514;root;20;1011510;0;S;12604;0;9884;868;136;508;6524;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ssh -oConnectTimeout=10 -2 -a -x soko07.front.sepia.ceph.com sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-15 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 
+20261103;20:02:34;1011516;root;20;353593;0;S;21268;0;13016;1764;132;572;11252;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;1011517;root;20;353593;0;S;21272;0;12984;1768;132;572;11252;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;1011544;root;20;1011474;0;S;21272;0;7952;1768;132;572;11252;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;1011552;root;20;1011494;0;S;21268;0;7984;1764;132;572;11252;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;1011571;root;20;1011516;0;S;21268;0;8096;1764;132;572;11252;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;1011576;root;20;1011517;0;S;21272;0;8060;1768;132;572;11252;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;1011777;root;20;1011552;0;S;7268;0;3800;436;132;876;1720;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;bash -c sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-11 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 
+20261103;20:02:34;1011871;root;20;1011576;0;S;7268;0;3740;436;132;876;1720;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;bash -c sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-15 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 
+20261103;20:02:34;1011873;root;20;1011571;0;S;7268;0;3728;436;132;876;1720;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;bash -c sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-`hostname -f`-14 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-`hostname`-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 > /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 
+20261103;20:02:34;1012162;root;20;1011777;0;S;25188;0;10396;1176;132;116;12752;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-11 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 
+20261103;20:02:34;1012173;root;20;2;0;I;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/38:2-events
+20261103;20:02:34;1012182;root;20;1011871;0;S;25188;0;10440;1176;132;116;12752;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-15 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 
+20261103;20:02:34;1012183;root;20;1011873;0;S;25188;0;10408;1176;132;116;12752;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sudo /usr/local/bin/fio.lee --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-14 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 
+20261103;20:02:34;1012187;root;20;1012162;0;R;360080;0;62560;178416;756;156;30112;1;11.22;15.39;44;0:00:39;0;1;587691;4;12567;404;0;0;212;/home/ljsanders/tmp/alex.lee/ld-linux-x86-64.so.2 --library-path /home/ljsanders/tmp/alex.lee:/home/ljsanders/tmp/alex.lee/ceph /usr/local/bin/fio --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-11 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.11 
+20261103;20:02:34;1012192;root;20;1012182;0;R;253524;0;63496;71920;748;156;30112;13;10.49;14.65;41;0:00:34;0;1;558352;4;11868;376;0;0;206;/home/ljsanders/tmp/alex.lee/ld-linux-x86-64.so.2 --library-path /home/ljsanders/tmp/alex.lee:/home/ljsanders/tmp/alex.lee/ceph /usr/local/bin/fio --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-15 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.15 
+20261103;20:02:34;1012193;root;20;1012183;1;S;263784;0;65256;82168;756;156;30112;47;10.61;14.59;42;0:00:34;0;0;582750;3;13266;406;0;0;163;/home/ljsanders/tmp/alex.lee/ld-linux-x86-64.so.2 --library-path /home/ljsanders/tmp/alex.lee:/home/ljsanders/tmp/alex.lee/ceph /usr/local/bin/fio --ioengine=rbd --clientname=admin --rbdname=cbt-librbdfio-soko07.front.sepia.ceph.com-14 --pool=rbd_replicated --invalidate=0 --direct=1 --numjobs=1 --iodepth=1 --rw=randread --output-format=json --bs=4194304 --end_fsync=0 --log_avg_msec=100 --runtime=60 --ramp_time=20 --time_based --norandommap --name=cbt-fio-4Mrandomread-soko07.front.sepia.ceph.com-file-0 --write_iops_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_bw_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 --write_lat_log=/tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000001/output.14 
+20261103;20:02:34;1013794;root;20;2;0;I;0;0;0;0;0;0;0;1;0.07;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:8-events_unbound
+20261103;20:02:34;1013795;root;20;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:9
+20261103;20:02:34;1013796;root;20;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:11
+20261103;20:02:34;1013847;root;20;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/69:0-events
+20261103;20:02:34;1013849;root;20;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/9:2
+20261103;20:02:34;1013887;root;20;3809655;3;S;69452;0;2768;780;256;104;1916;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/pdsh -f 1 -R ssh -w root@soko07.front.sepia.ceph.com collectl -c 18 -oz -sZC -i 10 --sep ";" -F0 -P -f /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000002/collectl 
+20261103;20:02:34;1013891;root;20;1013887;0;S;12604;0;9924;868;136;508;6524;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ssh -oConnectTimeout=10 -2 -a -x soko07.front.sepia.ceph.com collectl -c 18 -oz -sZC -i 10 --sep ";" -F0 -P -f /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000002/collectl 
+20261103;20:02:34;1013892;root;20;353593;0;S;21272;0;13008;1768;132;572;11252;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;1013895;root;20;1013892;0;S;21272;0;8000;1768;132;572;11252;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;1013896;root;20;1013895;0;R;37048;0;32388;26468;132;4;4008;33;0.04;0.11;0;0:00:00;0;0;24;0;98;0;0;0;6;/usr/bin/perl -w /usr/bin/collectl -c 18 -oz -sZC -i 10 --sep ; -F0 -P -f /tmp/cbt/00000000/LibrbdFio/osd_ra-00004096/4Mrandomread/rbdfio/numjobs-001/total_iodepth-24/iodepth-000002/collectl 
+20261103;20:02:34;1013970;root;20;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/1:2-mm_percpu_wq
+20261103;20:02:34;1013971;root;20;2;0;I;0;0;0;0;0;0;0;0;0.02;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/0:2-rcu_gp
+20261103;20:02:34;1013979;root;20;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/3:2-cgroup_destroy
+20261103;20:02:34;1014031;root;20;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/79:0
+20261103;20:02:34;102;root;20;2;0;S;0;0;0;0;0;0;0;14;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/14
+20261103;20:02:34;103;root;RT;2;0;S;0;0;0;0;0;0;0;14;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/14
+20261103;20:02:34;104;root;RT;2;0;S;0;0;0;0;0;0;0;14;0.00;0.00;0;0:02:31;0;0;0;0;0;0;0;0;0;migration/14
+20261103;20:02:34;1041;root;0;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:40:50;0;0;0;0;0;0;0;0;0;kworker/21:1H-kblockd
+20261103;20:02:34;1049;root;0;2;0;I;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:25;0;0;0;0;0;0;0;0;0;kworker/62:1H-kblockd
+20261103;20:02:34;105;root;20;2;0;S;0;0;0;0;0;0;0;14;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;ksoftirqd/14
+20261103;20:02:34;1054191;root;20;1;0;R;185744;0;139876;10708;132;104;11796;19;0.01;0.01;0;0:01:36;0;0;1;0;11;0;0;0;0;/usr/lib/systemd/systemd-journald 
+20261103;20:02:34;1058;root;0;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/33:1H-kblockd
+20261103;20:02:34;108;root;20;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/15
+20261103;20:02:34;1081;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/35:1H-kblockd
+20261103;20:02:34;1085;root;0;2;0;I;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/39:1H-kblockd
+20261103;20:02:34;109;root;RT;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/15
+20261103;20:02:34;11;root;0;2;0;I;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-mm_pe
+20261103;20:02:34;110;root;RT;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:02:27;0;0;0;0;0;0;0;0;0;migration/15
+20261103;20:02:34;1104;root;0;2;0;I;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:20;0;0;0;0;0;0;0;0;0;kworker/42:1H-kblockd
+20261103;20:02:34;111;root;20;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:43;0;0;0;0;0;0;0;0;0;ksoftirqd/15
+20261103;20:02:34;114;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/16
+20261103;20:02:34;115;root;RT;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/16
+20261103;20:02:34;116;root;RT;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:02:25;0;0;0;0;0;0;0;0;0;migration/16
+20261103;20:02:34;1164;root;0;2;0;I;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/37:1H-kblockd
+20261103;20:02:34;117;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:01:13;0;0;0;0;0;0;0;0;0;ksoftirqd/16
+20261103;20:02:34;1179334;root;0;2;0;I;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:05;0;0;0;0;0;0;0;0;0;kworker/49:2H-kblockd
+20261103;20:02:34;1182;root;0;2;0;I;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:10;0;0;0;0;0;0;0;0;0;kworker/41:1H-kblockd
+20261103;20:02:34;1191;root;0;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-0000:
+20261103;20:02:34;1193;root;RT;2;0;S;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/170-idxd-mi
+20261103;20:02:34;1196;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-0000:
+20261103;20:02:34;1197;root;RT;2;0;S;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/179-idxd-mi
+20261103;20:02:34;120;root;20;2;0;S;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;rcu_exp_par_gp_
+20261103;20:02:34;1202;root;0;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-0000:
+20261103;20:02:34;1203;root;RT;2;0;S;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/188-idxd-mi
+20261103;20:02:34;1207;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-0000:
+20261103;20:02:34;1208;root;0;2;0;I;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:10;0;0;0;0;0;0;0;0;0;kworker/43:1H-kblockd
+20261103;20:02:34;121;root;20;2;0;S;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/17
+20261103;20:02:34;1210;root;RT;2;0;S;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/197-idxd-mi
+20261103;20:02:34;1212;root;0;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:35:41;0;0;0;0;0;0;0;0;0;kworker/27:1H-kblockd
+20261103;20:02:34;1213;root;0;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-ata_s
+20261103;20:02:34;1216;root;0;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nvme-
+20261103;20:02:34;1217;root;0;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nvme-
+20261103;20:02:34;1218;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nvme-
+20261103;20:02:34;1219;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nvme-
+20261103;20:02:34;122;root;RT;2;0;S;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/17
+20261103;20:02:34;1221;root;0;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-qat_m
+20261103;20:02:34;1222;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-qat_d
+20261103;20:02:34;1223;root;0;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-qat_p
+20261103;20:02:34;1224;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-adf_v
+20261103;20:02:34;123;root;RT;2;0;S;0;0;0;0;0;0;0;17;0.00;0.00;0;0:02:21;0;0;0;0;0;0;0;0;0;migration/17
+20261103;20:02:34;1234;root;RT;2;0;S;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/180-idxd-po
+20261103;20:02:34;1236;root;RT;2;0;S;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/198-idxd-po
+20261103;20:02:34;1238170;alloy;20;1;49;S;9684068;0;122964;634960;132;204276;4176;5;0.11;0.17;0;5:10:03;0;1;1;1;7;6;0;0;0;/usr/bin/alloy run --server.http.listen-addr=127.0.0.1:12346 --storage.path=/var/lib/alloy/data /etc/alloy/config.alloy 
+20261103;20:02:34;124;root;20;2;0;S;0;0;0;0;0;0;0;17;0.00;0.00;0;0:01:00;0;0;0;0;0;0;0;0;0;ksoftirqd/17
+20261103;20:02:34;1250;root;20;2;0;S;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_0
+20261103;20:02:34;1251;root;0;2;0;I;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1252;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_1
+20261103;20:02:34;1253;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1254;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-bnxt_
+20261103;20:02:34;1255;root;20;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_2
+20261103;20:02:34;1256;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1257;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_3
+20261103;20:02:34;1258;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1259;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_4
+20261103;20:02:34;1260;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1261;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ptp0
+20261103;20:02:34;1262;root;20;2;0;S;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_5
+20261103;20:02:34;1263;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1264;root;20;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_6
+20261103;20:02:34;1265;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1266;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_7
+20261103;20:02:34;1267;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1269;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_8
+20261103;20:02:34;1269112;root;0;2;0;I;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/64:0H
+20261103;20:02:34;1269438;root;0;2;0;I;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/72:2H-kblockd
+20261103;20:02:34;127;root;20;2;0;S;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/18
+20261103;20:02:34;1270;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1271;root;20;2;0;S;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_9
+20261103;20:02:34;1272;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1273;root;20;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_10
+20261103;20:02:34;1274;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1275;root;20;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_11
+20261103;20:02:34;1276;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1279;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ptp1
+20261103;20:02:34;128;root;RT;2;0;S;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/18
+20261103;20:02:34;129;root;RT;2;0;S;0;0;0;0;0;0;0;18;0.00;0.00;0;0:02:17;0;0;0;0;0;0;0;0;0;migration/18
+20261103;20:02:34;13;root;20;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;rcu_tasks_kthre
+20261103;20:02:34;130;root;20;2;0;S;0;0;0;0;0;0;0;18;0.00;0.00;0;0:01:02;0;0;0;0;0;0;0;0;0;ksoftirqd/18
+20261103;20:02:34;132389;root;20;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/22:2-cgroup_destroy
+20261103;20:02:34;133;root;20;2;0;S;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/19
+20261103;20:02:34;134;root;RT;2;0;S;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/19
+20261103;20:02:34;1340125;root;0;2;0;I;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/76:1H-kblockd
+20261103;20:02:34;1340131;root;0;2;0;I;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/66:3H-kblockd
+20261103;20:02:34;1343931;root;20;739583;0;S;9084;0;12;2252;132;876;1720;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;-bash 
+20261103;20:02:34;135;root;RT;2;0;S;0;0;0;0;0;0;0;19;0.00;0.00;0;0:02:14;0;0;0;0;0;0;0;0;0;migration/19
+20261103;20:02:34;136;root;20;2;0;S;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:56;0;0;0;0;0;0;0;0;0;ksoftirqd/19
+20261103;20:02:34;1363;root;0;2;0;I;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:12;0;0;0;0;0;0;0;0;0;kworker/73:1H-kblockd
+20261103;20:02:34;1368;root;0;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:27:31;0;0;0;0;0;0;0;0;0;kworker/11:1H-nvme_tcp_wq
+20261103;20:02:34;1369;root;0;2;0;I;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:12;0;0;0;0;0;0;0;0;0;kworker/77:1H-kblockd
+20261103;20:02:34;1371;root;0;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/59:1H-kblockd
+20261103;20:02:34;1372;root;0;2;0;I;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/65:1H-kblockd
+20261103;20:02:34;1380;root;0;2;0;I;0;0;0;0;0;0;0;23;0.00;0.00;0;1:00:09;0;0;0;0;0;0;0;0;0;kworker/23:1H-kblockd
+20261103;20:02:34;1382;root;0;2;0;I;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/71:1H-kblockd
+20261103;20:02:34;1383;root;0;2;0;I;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:10;0;0;0;0;0;0;0;0;0;kworker/45:1H-kblockd
+20261103;20:02:34;1388;root;0;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:24;0;0;0;0;0;0;0;0;0;kworker/56:1H-kblockd
+20261103;20:02:34;1388284;root;0;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/69:2H
+20261103;20:02:34;1389;root;0;2;0;I;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/47:1H-kblockd
+20261103;20:02:34;139;root;20;2;0;S;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/20
+20261103;20:02:34;14;root;20;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;rcu_tasks_rude_
+20261103;20:02:34;140;root;RT;2;0;S;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/20
+20261103;20:02:34;141;root;RT;2;0;S;0;0;0;0;0;0;0;20;0.00;0.00;0;0:02:12;0;0;0;0;0;0;0;0;0;migration/20
+20261103;20:02:34;142;root;20;2;0;S;0;0;0;0;0;0;0;20;0.00;0.00;0;0:01:31;0;0;0;0;0;0;0;0;0;ksoftirqd/20
+20261103;20:02:34;145;root;20;2;0;S;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/21
+20261103;20:02:34;146;root;RT;2;0;S;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/21
+20261103;20:02:34;147;root;RT;2;0;S;0;0;0;0;0;0;0;21;0.00;0.00;0;0:02:09;0;0;0;0;0;0;0;0;0;migration/21
+20261103;20:02:34;148;root;20;2;0;S;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:41;0;0;0;0;0;0;0;0;0;ksoftirqd/21
+20261103;20:02:34;15;root;20;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;rcu_tasks_trace
+20261103;20:02:34;151;root;20;2;0;S;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/22
+20261103;20:02:34;152;root;RT;2;0;S;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/22
+20261103;20:02:34;153;root;RT;2;0;S;0;0;0;0;0;0;0;22;0.00;0.00;0;0:02:10;0;0;0;0;0;0;0;0;0;migration/22
+20261103;20:02:34;154;root;20;2;0;S;0;0;0;0;0;0;0;22;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;ksoftirqd/22
+20261103;20:02:34;157;root;20;2;0;S;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/23
+20261103;20:02:34;158;root;RT;2;0;S;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/23
+20261103;20:02:34;159;root;RT;2;0;S;0;0;0;0;0;0;0;23;0.00;0.00;0;0:02:07;0;0;0;0;0;0;0;0;0;migration/23
+20261103;20:02:34;1597;root;0;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;1597960;root;20;2;0;I;0;0;0;0;0;0;0;26;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/26:0-events
+20261103;20:02:34;16;root;20;2;0;S;0;0;0;0;0;0;0;0;0.01;0.00;0;0:14:24;0;0;0;0;0;0;0;0;0;ksoftirqd/0
+20261103;20:02:34;160;root;20;2;0;S;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:38;0;0;0;0;0;0;0;0;0;ksoftirqd/23
+20261103;20:02:34;1604;root;0;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;1624;root;0;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfsal
+20261103;20:02:34;1625;root;0;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs_m
+20261103;20:02:34;1626;root;0;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;1627;root;0;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;1628;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-r
+20261103;20:02:34;1629;root;0;2;0;I;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;163;root;20;2;0;S;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/24
+20261103;20:02:34;1630;root;0;2;0;I;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-i
+20261103;20:02:34;1631;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-l
+20261103;20:02:34;1632;root;0;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;1633;root;20;2;0;S;0;0;0;0;0;0;0;23;0.01;0.00;0;0:07:04;0;0;0;0;0;0;0;0;0;xfsaild/dm-0
+20261103;20:02:34;164;root;RT;2;0;S;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/24
+20261103;20:02:34;165;root;RT;2;0;S;0;0;0;0;0;0;0;24;0.00;0.00;0;0:02:04;0;0;0;0;0;0;0;0;0;migration/24
+20261103;20:02:34;166;root;20;2;0;S;0;0;0;0;0;0;0;24;0.00;0.00;0;0:01:11;0;0;0;0;0;0;0;0;0;ksoftirqd/24
+20261103;20:02:34;169;root;20;2;0;S;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/25
+20261103;20:02:34;1695578;ljsanders;20;1;0;S;27792;0;7644;5796;132;44;12788;39;0.01;0.00;0;0:06:54;0;0;0;0;1;0;0;0;0;/usr/lib/systemd/systemd --user 
+20261103;20:02:34;1695580;ljsanders;20;1695578;0;S;178540;0;84;23564;1032;44;13536;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;(sd-pam) 
+20261103;20:02:34;17;root;20;2;0;I;0;0;0;0;0;0;0;1;0.07;0.00;0;2:25:26;0;0;0;0;0;0;0;0;0;rcu_preempt
+20261103;20:02:34;170;root;RT;2;0;S;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/25
+20261103;20:02:34;171;root;RT;2;0;S;0;0;0;0;0;0;0;25;0.00;0.00;0;0:02:02;0;0;0;0;0;0;0;0;0;migration/25
+20261103;20:02:34;172;root;20;2;0;S;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:56;0;0;0;0;0;0;0;0;0;ksoftirqd/25
+20261103;20:02:34;173974;root;0;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-ceph-
+20261103;20:02:34;175;root;20;2;0;S;0;0;0;0;0;0;0;26;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/26
+20261103;20:02:34;176;root;RT;2;0;S;0;0;0;0;0;0;0;26;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/26
+20261103;20:02:34;177;root;RT;2;0;S;0;0;0;0;0;0;0;26;0.00;0.00;0;0:02:00;0;0;0;0;0;0;0;0;0;migration/26
+20261103;20:02:34;177690;root;0;2;0;I;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-tls-s
+20261103;20:02:34;178;root;20;2;0;S;0;0;0;0;0;0;0;26;0.00;0.00;0;0:01:06;0;0;0;0;0;0;0;0;0;ksoftirqd/26
+20261103;20:02:34;1787796;root;0;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/9:2H-nvme_tcp_wq
+20261103;20:02:34;18;root;20;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:18;0;0;0;0;0;0;0;0;0;rcu_exp_par_gp_
+20261103;20:02:34;181;root;20;2;0;S;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/27
+20261103;20:02:34;1819;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-ipmi-
+20261103;20:02:34;182;root;RT;2;0;S;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/27
+20261103;20:02:34;183;root;RT;2;0;S;0;0;0;0;0;0;0;27;0.00;0.00;0;0:01:59;0;0;0;0;0;0;0;0;0;migration/27
+20261103;20:02:34;184;root;20;2;0;S;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:57;0;0;0;0;0;0;0;0;0;ksoftirqd/27
+20261103;20:02:34;1855652;root;0;2;0;I;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/24:0H-kblockd
+20261103;20:02:34;1864;root;0;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;1868871;root;20;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/16:2-events
+20261103;20:02:34;187;root;20;2;0;S;0;0;0;0;0;0;0;28;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/28
+20261103;20:02:34;1870;root;20;2;0;S;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;scsi_eh_12
+20261103;20:02:34;1871;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-scsi_
+20261103;20:02:34;1872;root;20;2;0;S;0;0;0;0;0;0;0;6;0.01;0.00;0;0:09:55;0;0;0;0;0;0;0;0;0;usb-storage
+20261103;20:02:34;1875391;root;20;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/8:1-events
+20261103;20:02:34;188;root;RT;2;0;S;0;0;0;0;0;0;0;28;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/28
+20261103;20:02:34;189;root;RT;2;0;S;0;0;0;0;0;0;0;28;0.00;0.00;0;0:01:57;0;0;0;0;0;0;0;0;0;migration/28
+20261103;20:02:34;1894;root;0;2;0;I;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-uas
+20261103;20:02:34;1896162;root;0;2;0;I;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/32:0H-kblockd
+20261103;20:02:34;1896168;root;0;2;0;I;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/51:1H-kblockd
+20261103;20:02:34;1896179;root;0;2;0;I;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/19:0H
+20261103;20:02:34;19;root;20;2;0;S;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:41;0;0;0;0;0;0;0;0;0;rcu_exp_gp_kthr
+20261103;20:02:34;190;root;20;2;0;S;0;0;0;0;0;0;0;28;0.00;0.00;0;0:01:49;0;0;0;0;0;0;0;0;0;ksoftirqd/28
+20261103;20:02:34;1922;root;0;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nfit
+20261103;20:02:34;192986;root;0;2;0;I;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:19;0;0;0;0;0;0;0;0;0;kworker/72:0H-kblockd
+20261103;20:02:34;193;root;20;2;0;S;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/29
+20261103;20:02:34;194;root;RT;2;0;S;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/29
+20261103;20:02:34;195;root;RT;2;0;S;0;0;0;0;0;0;0;29;0.00;0.00;0;0:01:55;0;0;0;0;0;0;0;0;0;migration/29
+20261103;20:02:34;1952771;root;0;2;0;I;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/42:2H-kblockd
+20261103;20:02:34;196;root;20;2;0;S;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:51;0;0;0;0;0;0;0;0;0;ksoftirqd/29
+20261103;20:02:34;199;root;20;2;0;S;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/30
+20261103;20:02:34;2;root;20;0;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:34;0;0;0;0;0;0;0;0;0;kthreadd
+20261103;20:02:34;20;root;RT;2;0;S;0;0;0;0;0;0;0;0;0.00;0.00;0;0:03:45;0;0;0;0;0;0;0;0;0;migration/0
+20261103;20:02:34;200;root;RT;2;0;S;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/30
+20261103;20:02:34;2000311;root;0;2;0;I;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/58:1H-xfs-log/dm-2
+20261103;20:02:34;2000336;root;0;2;0;I;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/34:2H
+20261103;20:02:34;201;root;RT;2;0;S;0;0;0;0;0;0;0;30;0.00;0.00;0;0:01:55;0;0;0;0;0;0;0;0;0;migration/30
+20261103;20:02:34;202;root;20;2;0;S;0;0;0;0;0;0;0;30;0.00;0.00;0;0:01:19;0;0;0;0;0;0;0;0;0;ksoftirqd/30
+20261103;20:02:34;205;root;20;2;0;S;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/31
+20261103;20:02:34;206;root;RT;2;0;S;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/31
+20261103;20:02:34;2069292;root;0;2;0;I;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:14;0;0;0;0;0;0;0;0;0;kworker/46:0H-kblockd
+20261103;20:02:34;207;root;RT;2;0;S;0;0;0;0;0;0;0;31;0.00;0.00;0;0:01:54;0;0;0;0;0;0;0;0;0;migration/31
+20261103;20:02:34;208;root;20;2;0;S;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/31
+20261103;20:02:34;2087;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;2088;root;0;2;0;I;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;2089;root;0;2;0;I;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-r
+20261103;20:02:34;2090;root;0;2;0;I;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;2091;root;0;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-i
+20261103;20:02:34;2092;root;0;2;0;I;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;2093;root;0;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;2094;root;0;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-r
+20261103;20:02:34;2095;root;0;2;0;I;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-b
+20261103;20:02:34;2096;root;0;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-i
+20261103;20:02:34;2097;root;0;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-l
+20261103;20:02:34;2098;root;0;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;2099;root;20;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;xfsaild/nvme0n1
+20261103;20:02:34;21;root;RT;2;0;S;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/0
+20261103;20:02:34;2100;root;0;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-l
+20261103;20:02:34;2101;root;0;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-xfs-c
+20261103;20:02:34;2102;root;20;2;0;S;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:52;0;0;0;0;0;0;0;0;0;xfsaild/dm-2
+20261103;20:02:34;211;root;20;2;0;S;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/32
+20261103;20:02:34;212;root;RT;2;0;S;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/32
+20261103;20:02:34;213;root;RT;2;0;S;0;0;0;0;0;0;0;32;0.00;0.00;0;0:01:53;0;0;0;0;0;0;0;0;0;migration/32
+20261103;20:02:34;214;root;20;2;0;S;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:49;0;0;0;0;0;0;0;0;0;ksoftirqd/32
+20261103;20:02:34;2142;dbus;20;1;0;S;10844;0;1416;760;132;84;5352;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/dbus-broker-launch --scope system --audit 
+20261103;20:02:34;2143;dbus;20;2142;0;S;5576;0;1768;980;132;148;2800;5;0.01;0.00;0;0:18:16;0;0;0;0;0;0;0;0;0;dbus-broker --log 4 --controller 9 --machine-id 8011a1e8430a4e02b4c89c4d5d844a5f --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit 
+20261103;20:02:34;2146;root;20;1;3;S;363852;0;33624;62900;132;4;20840;68;0.00;0.00;0;0:16:05;0;0;0;0;0;0;0;0;0;/usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid 
+20261103;20:02:34;2147;root;20;1;1;S;83800;0;2096;9784;132;36;5580;37;0.06;0.01;0;5:14:21;0;0;66;0;66;0;0;0;0;/usr/sbin/irqbalance 
+20261103;20:02:34;2148;libstoragemgmt;20;1;0;S;2716;0;180;228;132;12;1688;79;0.00;0.00;0;0:00:21;0;0;0;0;0;0;0;0;0;/usr/bin/lsmd -d 
+20261103;20:02:34;2149;root;20;1;0;S;2832;0;8;264;132;60;1660;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/sbin/mcelog --daemon --foreground 
+20261103;20:02:34;2150;root;20;1;0;S;11556;0;1720;1200;132;220;6240;71;0.00;0.00;0;0:00:05;0;0;0;0;0;0;0;0;0;/usr/sbin/smartd -n -q never --capabilities 
+20261103;20:02:34;2152;root;20;1;0;S;25064;0;7612;4616;132;152;12024;7;0.01;0.01;0;0:17:12;0;0;0;0;1;1;0;0;0;/usr/lib/systemd/systemd-logind 
+20261103;20:02:34;2155;chrony;20;1;0;S;84972;0;1632;8928;132;268;5648;22;0.00;0.00;0;0:00:20;0;0;0;0;0;0;0;0;0;/usr/sbin/chronyd -F 2 
+20261103;20:02:34;2155016;root;0;2;0;I;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/54:0H
+20261103;20:02:34;2155036;root;0;2;0;I;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/67:2H-kblockd
+20261103;20:02:34;2155227;root;0;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:02:10;0;0;0;0;0;0;0;0;0;kworker/13:2H-nvme_tcp_wq
+20261103;20:02:34;2155228;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/8:1H
+20261103;20:02:34;2155230;root;0;2;0;I;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/50:1H-kblockd
+20261103;20:02:34;2155236;root;0;2;0;I;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/55:1H
+20261103;20:02:34;2155239;root;0;2;0;I;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/20:1H
+20261103;20:02:34;217;root;20;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;rcu_exp_par_gp_
+20261103;20:02:34;218;root;20;2;0;S;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/33
+20261103;20:02:34;219;root;RT;2;0;S;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/33
+20261103;20:02:34;220;root;RT;2;0;S;0;0;0;0;0;0;0;33;0.00;0.00;0;0:01:52;0;0;0;0;0;0;0;0;0;migration/33
+20261103;20:02:34;2202;polkitd;20;1;11;S;2985584;0;4528;70368;132;68;24664;79;0.00;0.01;0;0:08:02;0;0;0;0;1;2;0;0;0;/usr/lib/polkit-1/polkitd --no-debug 
+20261103;20:02:34;2208472;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:12:42;0;0;0;0;0;0;0;0;0;kworker/1:3H-kblockd
+20261103;20:02:34;221;root;20;2;0;S;0;0;0;0;0;0;0;33;0.00;0.00;0;0:01:08;0;0;0;0;0;0;0;0;0;ksoftirqd/33
+20261103;20:02:34;2218;root;20;1;2;S;260088;0;6476;27312;132;2596;17568;21;0.02;0.02;0;0:22:50;0;0;0;0;6;11;0;0;0;/usr/sbin/NetworkManager --no-daemon 
+20261103;20:02:34;2225895;root;0;2;0;I;0;0;0;0;0;0;0;10;0.00;0.00;0;0:02:10;0;0;0;0;0;0;0;0;0;kworker/10:1H-kblockd
+20261103;20:02:34;2225901;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/35:2H-kblockd
+20261103;20:02:34;2225921;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:02:44;0;0;0;0;0;0;0;0;0;kworker/2:0H-kblockd
+20261103;20:02:34;224;root;20;2;0;S;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/34
+20261103;20:02:34;2246;root;20;1;1;S;81060;0;1604;8556;132;12;2588;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/rhsmcertd 
+20261103;20:02:34;2248;root;20;1;3;S;259208;0;10644;38772;132;4;14616;45;0.00;0.02;0;0:25:07;0;0;0;0;0;0;0;0;0;/usr/bin/python3 -Es /usr/sbin/tuned -l -P 
+20261103;20:02:34;225;root;RT;2;0;S;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/34
+20261103;20:02:34;225877;root;0;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:03:47;0;0;0;0;0;0;0;0;0;kworker/21:2H-kblockd
+20261103;20:02:34;225882;root;0;2;0;I;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/49:0H-kblockd
+20261103;20:02:34;225948;root;0;2;0;I;0;0;0;0;0;0;0;19;0.00;0.00;0;0:42:20;0;0;0;0;0;0;0;0;0;kworker/19:2H-kblockd
+20261103;20:02:34;226;root;RT;2;0;S;0;0;0;0;0;0;0;34;0.00;0.00;0;0:01:51;0;0;0;0;0;0;0;0;0;migration/34
+20261103;20:02:34;227;root;20;2;0;S;0;0;0;0;0;0;0;34;0.00;0.00;0;0:01:18;0;0;0;0;0;0;0;0;0;ksoftirqd/34
+20261103;20:02:34;23;root;20;2;0;S;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/0
+20261103;20:02:34;230;root;20;2;0;S;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/35
+20261103;20:02:34;230294;root;20;2;0;I;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/75:0-cgroup_destroy
+20261103;20:02:34;231;root;RT;2;0;S;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/35
+20261103;20:02:34;232;root;RT;2;0;S;0;0;0;0;0;0;0;35;0.00;0.00;0;0:01:51;0;0;0;0;0;0;0;0;0;migration/35
+20261103;20:02:34;233;root;20;2;0;S;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/35
+20261103;20:02:34;2354172;root;0;2;0;I;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/36:2H-kblockd
+20261103;20:02:34;236;root;20;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/36
+20261103;20:02:34;236148;root;0;2;0;I;0;0;0;0;0;0;0;14;0.00;0.00;0;0:03:39;0;0;0;0;0;0;0;0;0;kworker/14:2H-kblockd
+20261103;20:02:34;236168;root;0;2;0;I;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/64:1H-kblockd
+20261103;20:02:34;236169;root;0;2;0;I;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/62:0H-kblockd
+20261103;20:02:34;2362577;root;0;2;0;I;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:04;0;0;0;0;0;0;0;0;0;kworker/51:2H-kblockd
+20261103;20:02:34;237;root;RT;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/36
+20261103;20:02:34;2371701;root;0;2;0;I;0;0;0;0;0;0;0;18;0.00;0.00;0;0:26:57;0;0;0;0;0;0;0;0;0;kworker/18:0H-kblockd
+20261103;20:02:34;238;root;RT;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:01:50;0;0;0;0;0;0;0;0;0;migration/36
+20261103;20:02:34;239;root;20;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:56;0;0;0;0;0;0;0;0;0;ksoftirqd/36
+20261103;20:02:34;24;root;20;2;0;S;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/1
+20261103;20:02:34;242;root;20;2;0;S;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/37
+20261103;20:02:34;242505;root;0;2;0;I;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/38:1H-kblockd
+20261103;20:02:34;242508;root;0;2;0;I;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/76:0H-kblockd
+20261103;20:02:34;242515;root;0;2;0;I;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/39:0H-kblockd
+20261103;20:02:34;242516;root;0;2;0;I;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/37:0H-kblockd
+20261103;20:02:34;242523;root;0;2;0;I;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/36:0H
+20261103;20:02:34;242530;root;0;2;0;I;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/57:1H-kblockd
+20261103;20:02:34;242534;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/2:1H
+20261103;20:02:34;243;root;RT;2;0;S;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/37
+20261103;20:02:34;244;root;RT;2;0;S;0;0;0;0;0;0;0;37;0.00;0.00;0;0:01:49;0;0;0;0;0;0;0;0;0;migration/37
+20261103;20:02:34;2449384;root;0;2;0;I;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:08;0;0;0;0;0;0;0;0;0;kworker/55:5H-kblockd
+20261103;20:02:34;245;root;20;2;0;S;0;0;0;0;0;0;0;37;0.00;0.00;0;0:01:03;0;0;0;0;0;0;0;0;0;ksoftirqd/37
+20261103;20:02:34;248;root;20;2;0;S;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/38
+20261103;20:02:34;249;root;RT;2;0;S;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/38
+20261103;20:02:34;25;root;RT;2;0;S;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/1
+20261103;20:02:34;250;root;RT;2;0;S;0;0;0;0;0;0;0;38;0.00;0.00;0;0:01:50;0;0;0;0;0;0;0;0;0;migration/38
+20261103;20:02:34;251;root;20;2;0;S;0;0;0;0;0;0;0;38;0.00;0.00;0;0:01:16;0;0;0;0;0;0;0;0;0;ksoftirqd/38
+20261103;20:02:34;254;root;20;2;0;S;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/39
+20261103;20:02:34;255;root;RT;2;0;S;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/39
+20261103;20:02:34;256;root;RT;2;0;S;0;0;0;0;0;0;0;39;0.00;0.00;0;0:01:50;0;0;0;0;0;0;0;0;0;migration/39
+20261103;20:02:34;257;root;20;2;0;S;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/39
+20261103;20:02:34;26;root;RT;2;0;S;0;0;0;0;0;0;0;1;0.01;0.00;0;0:03:33;0;0;0;0;0;0;0;0;0;migration/1
+20261103;20:02:34;260;root;20;2;0;S;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/40
+20261103;20:02:34;261;root;RT;2;0;S;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/40
+20261103;20:02:34;262;root;RT;2;0;S;0;0;0;0;0;0;0;40;0.00;0.00;0;0:01:42;0;0;0;0;0;0;0;0;0;migration/40
+20261103;20:02:34;263;root;20;2;0;S;0;0;0;0;0;0;0;40;0.00;0.00;0;0:01:35;0;0;0;0;0;0;0;0;0;ksoftirqd/40
+20261103;20:02:34;266;root;20;2;0;S;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/41
+20261103;20:02:34;267;root;RT;2;0;S;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/41
+20261103;20:02:34;268;root;RT;2;0;S;0;0;0;0;0;0;0;41;0.00;0.00;0;0:01:42;0;0;0;0;0;0;0;0;0;migration/41
+20261103;20:02:34;269;root;20;2;0;S;0;0;0;0;0;0;0;41;0.00;0.00;0;0:01:55;0;0;0;0;0;0;0;0;0;ksoftirqd/41
+20261103;20:02:34;2698;root;20;1;2;S;770968;0;22280;31008;132;436;4780;19;0.01;0.01;0;1:21:46;0;0;0;0;1;1;0;0;0;/usr/sbin/rsyslogd -n 
+20261103;20:02:34;27;root;20;2;0;S;0;0;0;0;0;0;0;1;0.03;0.00;0;0:10:57;0;0;0;0;0;0;0;0;0;ksoftirqd/1
+20261103;20:02:34;2703;root;20;1;0;S;13172;0;752;452;132;12;7492;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/sbin/atd -f 
+20261103;20:02:34;2704;root;20;1;0;S;8592;0;1332;832;524;44;2776;31;0.00;0.00;0;0:00:42;0;0;0;0;0;0;0;0;0;/usr/sbin/crond -n 
+20261103;20:02:34;2712482;root;0;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-rbd
+20261103;20:02:34;272;root;20;2;0;S;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/42
+20261103;20:02:34;273;root;RT;2;0;S;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/42
+20261103;20:02:34;274;root;RT;2;0;S;0;0;0;0;0;0;0;42;0.00;0.00;0;0:01:40;0;0;0;0;0;0;0;0;0;migration/42
+20261103;20:02:34;275;root;20;2;0;S;0;0;0;0;0;0;0;42;0.00;0.00;0;0:02:04;0;0;0;0;0;0;0;0;0;ksoftirqd/42
+20261103;20:02:34;278;root;20;2;0;S;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/43
+20261103;20:02:34;279;root;RT;2;0;S;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/43
+20261103;20:02:34;280;root;RT;2;0;S;0;0;0;0;0;0;0;43;0.00;0.00;0;0:01:40;0;0;0;0;0;0;0;0;0;migration/43
+20261103;20:02:34;2809;root;20;1;0;S;3056;0;12;232;132;28;1660;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/sbin/agetty -o -p -- \u --noclear - linux 
+20261103;20:02:34;281;root;20;2;0;S;0;0;0;0;0;0;0;43;0.00;0.00;0;0:01:31;0;0;0;0;0;0;0;0;0;ksoftirqd/43
+20261103;20:02:34;2818655;root;0;2;0;I;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:02;0;0;0;0;0;0;0;0;0;kworker/58:2H-kblockd
+20261103;20:02:34;2819270;root;0;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:02;0;0;0;0;0;0;0;0;0;kworker/78:0H-kblockd
+20261103;20:02:34;284;root;20;2;0;S;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/44
+20261103;20:02:34;285;root;RT;2;0;S;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/44
+20261103;20:02:34;286;root;RT;2;0;S;0;0;0;0;0;0;0;44;0.00;0.00;0;0:01:39;0;0;0;0;0;0;0;0;0;migration/44
+20261103;20:02:34;287;root;20;2;0;S;0;0;0;0;0;0;0;44;0.00;0.00;0;0:02:02;0;0;0;0;0;0;0;0;0;ksoftirqd/44
+20261103;20:02:34;290;root;20;2;0;S;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/45
+20261103;20:02:34;291;root;RT;2;0;S;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/45
+20261103;20:02:34;292;root;RT;2;0;S;0;0;0;0;0;0;0;45;0.00;0.00;0;0:01:40;0;0;0;0;0;0;0;0;0;migration/45
+20261103;20:02:34;293;root;20;2;0;S;0;0;0;0;0;0;0;45;0.00;0.00;0;0:01:02;0;0;0;0;0;0;0;0;0;ksoftirqd/45
+20261103;20:02:34;296;root;20;2;0;S;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/46
+20261103;20:02:34;297;root;RT;2;0;S;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/46
+20261103;20:02:34;298;root;RT;2;0;S;0;0;0;0;0;0;0;46;0.00;0.00;0;0:01:38;0;0;0;0;0;0;0;0;0;migration/46
+20261103;20:02:34;299;root;20;2;0;S;0;0;0;0;0;0;0;46;0.00;0.00;0;0:01:30;0;0;0;0;0;0;0;0;0;ksoftirqd/46
+20261103;20:02:34;3;root;20;2;0;S;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;pool_workqueue_
+20261103;20:02:34;30;root;20;2;0;S;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/2
+20261103;20:02:34;302;root;20;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/47
+20261103;20:02:34;303;root;RT;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/47
+20261103;20:02:34;304;root;RT;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:01:39;0;0;0;0;0;0;0;0;0;migration/47
+20261103;20:02:34;305;root;20;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:01:03;0;0;0;0;0;0;0;0;0;ksoftirqd/47
+20261103;20:02:34;3051267;root;0;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:31:45;0;0;0;0;0;0;0;0;0;kworker/7:0H-nvme_tcp_wq
+20261103;20:02:34;308;root;20;2;0;S;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/48
+20261103;20:02:34;3087886;root;0;2;0;I;0;0;0;0;0;0;0;29;0.00;0.00;0;0:26:45;0;0;0;0;0;0;0;0;0;kworker/29:0H-kblockd
+20261103;20:02:34;309;root;RT;2;0;S;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/48
+20261103;20:02:34;31;root;RT;2;0;S;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/2
+20261103;20:02:34;310;root;RT;2;0;S;0;0;0;0;0;0;0;48;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/48
+20261103;20:02:34;3107395;root;0;2;0;I;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:06;0;0;0;0;0;0;0;0;0;kworker/67:1H-kblockd
+20261103;20:02:34;3107405;root;0;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:06;0;0;0;0;0;0;0;0;0;kworker/69:0H-kblockd
+20261103;20:02:34;311;root;20;2;0;S;0;0;0;0;0;0;0;48;0.00;0.00;0;0:01:02;0;0;0;0;0;0;0;0;0;ksoftirqd/48
+20261103;20:02:34;314;root;20;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;rcu_exp_par_gp_
+20261103;20:02:34;315;root;20;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/49
+20261103;20:02:34;316;root;RT;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/49
+20261103;20:02:34;3162275;root;0;2;0;I;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/44:0H-kblockd
+20261103;20:02:34;3162277;root;0;2;0;I;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:05;0;0;0;0;0;0;0;0;0;kworker/40:0H-kblockd
+20261103;20:02:34;3162574;root;0;2;0;I;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:13;0;0;0;0;0;0;0;0;0;kworker/74:1H-kblockd
+20261103;20:02:34;317;root;RT;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:01:39;0;0;0;0;0;0;0;0;0;migration/49
+20261103;20:02:34;318;root;20;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:01:12;0;0;0;0;0;0;0;0;0;ksoftirqd/49
+20261103;20:02:34;3192450;root;0;2;0;I;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:12;0;0;0;0;0;0;0;0;0;kworker/50:2H-kblockd
+20261103;20:02:34;3192458;root;0;2;0;I;0;0;0;0;0;0;0;6;0.00;0.00;0;0:09:44;0;0;0;0;0;0;0;0;0;kworker/6:1H-kblockd
+20261103;20:02:34;3192462;root;0;2;0;I;0;0;0;0;0;0;0;12;0.00;0.00;0;0:03:35;0;0;0;0;0;0;0;0;0;kworker/12:2H-kblockd
+20261103;20:02:34;3192477;root;0;2;0;I;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:11;0;0;0;0;0;0;0;0;0;kworker/60:1H-kblockd
+20261103;20:02:34;319609;root;0;2;0;I;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/53:0H
+20261103;20:02:34;319617;root;0;2;0;I;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/71:0H-kblockd
+20261103;20:02:34;319620;root;0;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/33:0H
+20261103;20:02:34;319631;root;0;2;0;I;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/44:1H-kblockd
+20261103;20:02:34;32;root;RT;2;0;S;0;0;0;0;0;0;0;2;0.00;0.00;0;0:03:31;0;0;0;0;0;0;0;0;0;migration/2
+20261103;20:02:34;3200268;root;0;2;0;I;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:05;0;0;0;0;0;0;0;0;0;kworker/63:2H-kblockd
+20261103;20:02:34;321;root;20;2;0;S;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/50
+20261103;20:02:34;322;root;RT;2;0;S;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/50
+20261103;20:02:34;322720;root;0;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/17:0H-kblockd
+20261103;20:02:34;322721;root;0;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:59;0;0;0;0;0;0;0;0;0;kworker/4:1H-kblockd
+20261103;20:02:34;322723;root;0;2;0;I;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/60:0H-kblockd
+20261103;20:02:34;322725;root;0;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/61:0H-kblockd
+20261103;20:02:34;322732;root;0;2;0;I;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/63:0H
+20261103;20:02:34;322733;root;0;2;0;I;0;0;0;0;0;0;0;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/6:0H
+20261103;20:02:34;323;root;RT;2;0;S;0;0;0;0;0;0;0;50;0.00;0.00;0;0:01:38;0;0;0;0;0;0;0;0;0;migration/50
+20261103;20:02:34;324;root;20;2;0;S;0;0;0;0;0;0;0;50;0.00;0.00;0;0:01:25;0;0;0;0;0;0;0;0;0;ksoftirqd/50
+20261103;20:02:34;324717;root;20;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/78:1-mm_percpu_wq
+20261103;20:02:34;327;root;20;2;0;S;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/51
+20261103;20:02:34;328;root;RT;2;0;S;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/51
+20261103;20:02:34;329;root;RT;2;0;S;0;0;0;0;0;0;0;51;0.00;0.00;0;0:01:38;0;0;0;0;0;0;0;0;0;migration/51
+20261103;20:02:34;3299356;root;0;2;0;I;0;0;0;0;0;0;0;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/12:1H-kblockd
+20261103;20:02:34;33;root;20;2;0;S;0;0;0;0;0;0;0;2;0.01;0.00;0;0:05:00;0;0;0;0;0;0;0;0;0;ksoftirqd/2
+20261103;20:02:34;330;root;20;2;0;S;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:54;0;0;0;0;0;0;0;0;0;ksoftirqd/51
+20261103;20:02:34;333;root;20;2;0;S;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/52
+20261103;20:02:34;334;root;RT;2;0;S;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/52
+20261103;20:02:34;335;root;RT;2;0;S;0;0;0;0;0;0;0;52;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/52
+20261103;20:02:34;335026;root;0;2;0;I;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:09;0;0;0;0;0;0;0;0;0;kworker/40:2H-kblockd
+20261103;20:02:34;336;root;20;2;0;S;0;0;0;0;0;0;0;52;0.00;0.00;0;0:01:21;0;0;0;0;0;0;0;0;0;ksoftirqd/52
+20261103;20:02:34;339;root;20;2;0;S;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/53
+20261103;20:02:34;340;root;RT;2;0;S;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/53
+20261103;20:02:34;341;root;RT;2;0;S;0;0;0;0;0;0;0;53;0.00;0.00;0;0:01:38;0;0;0;0;0;0;0;0;0;migration/53
+20261103;20:02:34;3410753;root;0;2;0;I;0;0;0;0;0;0;0;24;0.00;0.00;0;0:04:49;0;0;0;0;0;0;0;0;0;kworker/24:1H-kblockd
+20261103;20:02:34;342;root;20;2;0;S;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:52;0;0;0;0;0;0;0;0;0;ksoftirqd/53
+20261103;20:02:34;3420911;root;0;2;0;I;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:06;0;0;0;0;0;0;0;0;0;kworker/68:2H-kblockd
+20261103;20:02:34;3428323;root;20;2;0;I;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/68:1-events
+20261103;20:02:34;3445227;root;20;2;0;I;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/74:0-mm_percpu_wq
+20261103;20:02:34;345;root;20;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/54
+20261103;20:02:34;346;root;RT;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/54
+20261103;20:02:34;3465041;root;0;2;0;I;0;0;0;0;0;0;0;28;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/28:0H-kblockd
+20261103;20:02:34;347;root;RT;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/54
+20261103;20:02:34;348;root;20;2;0;S;0;0;0;0;0;0;0;54;0.00;0.00;0;0:01:18;0;0;0;0;0;0;0;0;0;ksoftirqd/54
+20261103;20:02:34;348079;root;20;2;0;I;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/54:1-mm_percpu_wq
+20261103;20:02:34;351;root;20;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/55
+20261103;20:02:34;352;root;RT;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/55
+20261103;20:02:34;353;root;RT;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;0:01:37;0;0;0;0;0;0;0;0;0;migration/55
+20261103;20:02:34;353593;root;20;1;0;S;19756;0;3736;1332;132;572;10696;7;0.00;0.00;0;0:02:58;0;0;33;1;36;6;0;0;1;sshd: /usr/sbin/sshd -D [listener] 0 of 50-100 startups 
+20261103;20:02:34;354;root;20;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:39;0;0;0;0;0;0;0;0;0;ksoftirqd/55
+20261103;20:02:34;3541148;root;20;2;0;I;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/36:0-events
+20261103;20:02:34;3541149;root;20;2;0;I;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/32:2-events
+20261103;20:02:34;357;root;20;2;0;S;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/56
+20261103;20:02:34;358;root;RT;2;0;S;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/56
+20261103;20:02:34;3589683;root;20;1;0;S;8076;0;260;704;132;348;2376;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;SCREEN 
+20261103;20:02:34;3589684;root;20;3589683;0;S;9112;0;8;2276;136;876;1720;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/bash 
+20261103;20:02:34;359;root;RT;2;0;S;0;0;0;0;0;0;0;56;0.00;0.00;0;0:01:35;0;0;0;0;0;0;0;0;0;migration/56
+20261103;20:02:34;36;root;20;2;0;S;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/3
+20261103;20:02:34;360;root;20;2;0;S;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:57;0;0;0;0;0;0;0;0;0;ksoftirqd/56
+20261103;20:02:34;363;root;20;2;0;S;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/57
+20261103;20:02:34;364;root;RT;2;0;S;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/57
+20261103;20:02:34;365;root;RT;2;0;S;0;0;0;0;0;0;0;57;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/57
+20261103;20:02:34;366;root;20;2;0;S;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:53;0;0;0;0;0;0;0;0;0;ksoftirqd/57
+20261103;20:02:34;3662502;root;20;2;0;I;0;0;0;0;0;0;0;28;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/28:3-events
+20261103;20:02:34;3673158;root;0;2;0;I;0;0;0;0;0;0;0;26;0.00;0.00;0;0:14:44;0;0;0;0;0;0;0;0;0;kworker/26:2H-nvme_tcp_wq
+20261103;20:02:34;3673166;root;0;2;0;I;0;0;0;0;0;0;0;54;0.00;0.00;0;0:00:12;0;0;0;0;0;0;0;0;0;kworker/54:2H-kblockd
+20261103;20:02:34;3673178;root;0;2;0;I;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:03;0;0;0;0;0;0;0;0;0;kworker/57:0H-kblockd
+20261103;20:02:34;3689638;root;16;1;2;S;97112;0;1776;17424;132;80;8308;7;0.00;0.00;0;0:02:56;0;0;0;0;0;2;0;0;0;/sbin/auditd 
+20261103;20:02:34;3689640;root;16;3689638;0;S;9084;0;1204;1756;132;4;5048;38;0.00;0.00;0;0:01:29;0;0;0;0;4;0;0;0;0;/usr/sbin/sedispatch 
+20261103;20:02:34;369;root;20;2;0;S;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/58
+20261103;20:02:34;3691137;root;0;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/79:0H-xfs-log/dm-0
+20261103;20:02:34;3692779;root;20;2;0;I;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/64:3-events
+20261103;20:02:34;3693193;root;20;2;0;I;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/30:0-events
+20261103;20:02:34;3693315;root;0;2;0;I;0;0;0;0;0;0;0;28;0.00;0.00;0;0:17:13;0;0;0;0;0;0;0;0;0;kworker/28:2H-kblockd
+20261103;20:02:34;36984;root;0;2;0;I;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:17;0;0;0;0;0;0;0;0;0;kworker/38:2H-kblockd
+20261103;20:02:34;3699070;root;20;2;0;I;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/46:2-events
+20261103;20:02:34;3699654;root;20;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/2:1-events
+20261103;20:02:34;37;root;RT;2;0;S;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/3
+20261103;20:02:34;370;root;RT;2;0;S;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/58
+20261103;20:02:34;3700068;root;20;1;0;S;11120;0;2208;384;132;44;5148;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa -u c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa/userdata -p /run/containers/storage/overlay-containers/c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-mon-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@mon.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg c15dfc922be5c34271e5a95f23413f94fc0a640c5a465dcf0dc7aa064adc63fa 
+20261103;20:02:34;3700070;root;20;3700068;0;S;1104;0;760;172;132;588;8;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-mon -n mon.soko07 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --default-mon-cluster-log-to-file=false --default-mon-cluster-log-to-journald=true --default-mon-cluster-log-to-stderr=false 
+20261103;20:02:34;3700076;ceph;20;3700070;25;S;580280;0;349608;540236;744;9636;16704;31;0.06;0.39;0;0:03:56;0;16;60;50;32;7;0;0;0;/usr/bin/ceph-mon -n mon.soko07 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --default-mon-cluster-log-to-file=false --default-mon-cluster-log-to-journald=true --default-mon-cluster-log-to-stderr=false 
+20261103;20:02:34;3700376;root;20;1;0;S;11120;0;2492;384;132;44;5148;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9 -u 01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9/userdata -p /run/containers/storage/overlay-containers/01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-mgr-soko07-njgben --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@mgr.soko07.njgben.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 01898478d0d013cd4b2a6c3414b97c3d952c18357babf46da8547d108b2aa7e9 
+20261103;20:02:34;3700378;root;20;3700376;0;S;1104;0;756;172;132;588;8;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-mgr -n mgr.soko07.njgben -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false 
+20261103;20:02:34;3700380;ceph;20;3700378;265;S;17337644;0;4442904;17156096;748;1896;108936;0;0.07;0.39;0;0:03:29;0;0;29;0;19;3;0;0;25;/usr/bin/ceph-mgr -n mgr.soko07.njgben -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false 
+20261103;20:02:34;3701812;root;20;1;0;S;25364;0;15308;3368;132;44;12788;25;0.00;0.00;0;0:00:01;0;0;0;0;1;0;0;0;0;/usr/lib/systemd/systemd --user 
+20261103;20:02:34;3701814;root;20;3701812;0;S;180704;0;8276;25724;1032;44;13536;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;(sd-pam) 
+20261103;20:02:34;371;root;RT;2;0;S;0;0;0;0;0;0;0;58;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/58
+20261103;20:02:34;3711089;root;20;1;0;S;11120;0;2068;384;132;44;5148;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327 -u 1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327/userdata -p /run/containers/storage/overlay-containers/1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-ceph-exporter-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@ceph-exporter.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 1620075ab4bc7fe3981205ff8414b9cadd725febca3a1b68594a9da97eb15327 
+20261103;20:02:34;3711091;root;20;3711089;0;S;1104;0;760;172;132;588;8;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-exporter -n client.ceph-exporter.soko07 -f --sock-dir=/var/run/ceph/ --addrs=0.0.0.0 --port=9926 --prio-limit=5 --stats-period=5 
+20261103;20:02:34;3711093;root;20;3711091;8;S;503668;0;34748;84780;744;900;15780;6;0.05;0.56;1;0:05:49;0;0;640;0;14;7;0;0;1;/usr/bin/ceph-exporter -n client.ceph-exporter.soko07 -f --sock-dir=/var/run/ceph/ --addrs=0.0.0.0 --port=9926 --prio-limit=5 --stats-period=5 
+20261103;20:02:34;3711818;root;20;1;0;S;11120;0;2536;384;132;44;5148;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678 -u bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678/userdata -p /run/containers/storage/overlay-containers/bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-crash-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@crash.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg bdaed4ee1f1af2841ea112bc24407b40fcf5178827a62b1886585cac8ffc6678 
+20261103;20:02:34;3711820;root;20;3711818;0;S;1104;0;760;172;132;588;8;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-crash -n client.crash.soko07 
+20261103;20:02:34;3711822;ceph;20;3711820;0;S;18068;0;14828;8424;132;4;5312;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/python3 -s /usr/bin/ceph-crash -n client.crash.soko07 
+20261103;20:02:34;3712400;root;20;1;0;S;11120;0;2536;384;132;44;5148;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27 -u fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27/userdata -p /run/containers/storage/overlay-containers/fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-node-exporter-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@node-exporter.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg fa12a80a94625d84ca7d05add169e93cffa5dbad0a7629963522cd33e3010e27 
+20261103;20:02:34;3712407;nobody;20;3712400;0;S;1104;0;756;172;132;588;8;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /bin/node_exporter --no-collector.timex --path.procfs=/host/proc --path.sysfs=/host/sys --path.rootfs=/rootfs 
+20261103;20:02:34;3712416;nobody;20;3712407;4;S;1242796;0;25416;51640;132;7064;8;25;0.19;0.28;0;0:04:24;0;0;20;3;392;1;0;0;50;/bin/node_exporter --no-collector.timex --path.procfs=/host/proc --path.sysfs=/host/sys --path.rootfs=/rootfs 
+20261103;20:02:34;3713792;root;20;2;0;I;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/48:0-events
+20261103;20:02:34;3714158;root;20;1;0;S;11120;0;2504;384;132;44;5148;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169 -u 50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169/userdata -p /run/containers/storage/overlay-containers/50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-mgr-soko07-sbvbtw --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@mgr.soko07.sbvbtw.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 50c59273a01fbc6c548f025d7e1935e32e6ad86b51674d5a0caeff3bbded4169 
+20261103;20:02:34;3714168;root;20;3714158;0;S;1104;0;760;172;132;588;8;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-mgr -n mgr.soko07.sbvbtw -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false 
+20261103;20:02:34;3714179;ceph;20;3714168;17;S;10967752;0;207020;10787240;748;1896;108936;62;0.02;0.04;0;0:00:30;0;0;2;0;3;0;0;0;0;/usr/bin/ceph-mgr -n mgr.soko07.sbvbtw -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false 
+20261103;20:02:34;3714826;root;20;1;0;S;11120;0;2384;384;132;44;5148;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8 -u c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8/userdata -p /run/containers/storage/overlay-containers/c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-prometheus-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@prometheus.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg c8f00835bbd95d8c58abb07603a78f7dab78c37ced4f37f6c5820f4f1e3dd6a8 
+20261103;20:02:34;3714828;nobody;20;3714826;0;S;1104;0;760;172;132;588;8;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus --web.listen-address=:9095 --storage.tsdb.retention.time=15d --storage.tsdb.retention.size=0 --web.external-url=http://soko07.front.sepia.ceph.com:9095 
+20261103;20:02:34;3714830;nobody;20;3714828;84;S;1792464;0;174844;197404;132;47660;8;33;0.03;0.25;0;0:02:45;0;4;25;4;3;1;0;0;0;/bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus --web.listen-address=:9095 --storage.tsdb.retention.time=15d --storage.tsdb.retention.size=0 --web.external-url=http://soko07.front.sepia.ceph.com:9095 
+20261103;20:02:34;3715389;root;20;2;0;I;0;0;0;0;0;0;0;14;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/14:1-events
+20261103;20:02:34;3715465;root;20;353593;0;S;21268;0;12908;1764;132;572;11252;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: root [priv]    
+20261103;20:02:34;3715542;root;20;3715465;0;S;21556;0;8320;2052;132;572;11252;11;0.00;0.00;0;0:00:01;0;0;0;0;0;0;0;0;0;sshd: root@notty     
+20261103;20:02:34;3717102;root;20;2;0;I;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/62:0-events
+20261103;20:02:34;372;root;20;2;0;S;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:51;0;0;0;0;0;0;0;0;0;ksoftirqd/58
+20261103;20:02:34;3722551;root;20;1;0;S;11120;0;2496;384;132;44;5148;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f -u 053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f/userdata -p /run/containers/storage/overlay-containers/053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-alertmanager-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@alertmanager.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 053e016224812ba6daa7348e44fa2613972bb73f0598b2b08c435c8d08a6c51f 
+20261103;20:02:34;3722553;nobody;20;3722551;0;S;1104;0;760;172;132;588;8;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /bin/alertmanager --web.listen-address=:9093 --cluster.listen-address=:9094 --config.file=/etc/alertmanager/alertmanager.yml 
+20261103;20:02:34;3722561;nobody;20;3722553;32;S;1260704;0;51956;65404;132;11900;8;5;0.01;0.06;0;0:00:28;0;0;0;0;2;2;0;0;0;/bin/alertmanager --web.listen-address=:9093 --cluster.listen-address=:9094 --config.file=/etc/alertmanager/alertmanager.yml 
+20261103;20:02:34;3723046;root;20;1;0;S;11120;0;2500;384;132;44;5148;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a -u 11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a/userdata -p /run/containers/storage/overlay-containers/11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-grafana-soko07 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@grafana.soko07.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 11189d5a180e5185688a04e429ccf377ad038b641ae4006f3284701d9cefed5a 
+20261103;20:02:34;3723048;472;20;3723046;0;S;1104;0;756;172;132;588;8;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /run.sh 
+20261103;20:02:34;3723054;472;20;3723048;78;S;2280420;0;311120;836488;132;151660;8;70;0.04;0.26;0;0:01:42;0;0;1;0;4;2;0;0;2;grafana server --homepath=/usr/share/grafana --config=/etc/grafana/grafana.ini --packaging=docker cfg:default.log.mode=console cfg:default.paths.data=/var/lib/grafana cfg:default.paths.logs=/var/log/grafana cfg:default.paths.plugins=/var/lib/grafana/plugins cfg:default.paths.provisioning=/etc/grafana/provisioning 
+20261103;20:02:34;3725619;root;0;2;0;I;0;0;0;0;0;0;0;25;0.00;0.00;0;0:36:53;0;0;0;0;0;0;0;0;0;kworker/25:0H-kblockd
+20261103;20:02:34;3730067;root;20;2;0;I;0;0;0;0;0;0;0;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/12:1-mm_percpu_wq
+20261103;20:02:34;3738530;root;0;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3738776;root;20;1;0;S;11120;0;2312;384;132;44;5148;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a -u 70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a/userdata -p /run/containers/storage/overlay-containers/70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-0 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.0.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 70301145eb6fa418c5bbdeea256297f48125788a3428faaf3a0115281ac0e33a 
+20261103;20:02:34;3738778;root;20;3738776;0;S;1104;0;760;172;132;588;8;54;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.0 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3738780;ceph;20;3738778;75;S;8351456;0;6293784;8303024;752;19320;12616;24;103.61;110.21;356;41:04:57;3005112;1;1750;108;4154;1167;0;0;8321;/usr/bin/ceph-osd -n osd.0 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3739508;root;20;2;0;I;0;0;0;0;0;0;0;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/10:2-events
+20261103;20:02:34;3748480;root;0;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3748714;root;20;1;0;S;11120;0;2436;384;132;44;5148;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492 -u 0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492/userdata -p /run/containers/storage/overlay-containers/0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-1 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.1.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 0ea028e11cdbca391941459d94720f6a78aa6c59465324834403ede942d57492 
+20261103;20:02:34;3748716;root;20;3748714;0;S;1104;0;760;172;132;588;8;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.1 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3748718;ceph;20;3748716;75;S;6775084;0;5507408;6726656;748;19320;12616;31;55.32;54.60;183;25:28:16;1553248;1;800;104;2328;719;0;0;3287;/usr/bin/ceph-osd -n osd.1 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3749626;root;20;2;0;I;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/42:2-mm_percpu_wq
+20261103;20:02:34;375;root;20;2;0;S;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/59
+20261103;20:02:34;3759194;root;0;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3759416;root;20;1;0;S;11120;0;2492;384;132;44;5148;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5 -u e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5/userdata -p /run/containers/storage/overlay-containers/e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-2 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.2.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg e5cd31f894aee6c2cc8056a997a8706a81b72da25d58beca6bdc30136a8098c5 
+20261103;20:02:34;3759418;root;20;3759416;0;S;1104;0;756;172;132;588;8;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.2 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3759420;ceph;20;3759418;75;S;7486664;0;6080384;7438236;748;19320;12616;52;66.13;65.62;219;29:16:04;1884277;1;816;105;2778;851;0;0;1164;/usr/bin/ceph-osd -n osd.2 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;376;root;RT;2;0;S;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/59
+20261103;20:02:34;377;root;RT;2;0;S;0;0;0;0;0;0;0;59;0.00;0.00;0;0:01:35;0;0;0;0;0;0;0;0;0;migration/59
+20261103;20:02:34;3771118;root;0;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3771350;root;20;1;0;S;11120;0;2540;384;132;44;5148;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84 -u a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84/userdata -p /run/containers/storage/overlay-containers/a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-3 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.3.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg a6650a8f61dd626e18dd58b184a4cfa32d8c8687211789374fa1ab0beb364b84 
+20261103;20:02:34;3771353;root;20;3771350;0;S;1104;0;760;172;132;588;8;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.3 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3771361;ceph;20;3771353;75;S;8871552;0;6756784;8823128;744;19320;12616;62;110.47;114.70;375;40:51:30;3213171;1;1838;108;4352;1188;0;0;4692;/usr/bin/ceph-osd -n osd.3 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;378;root;20;2;0;S;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:54;0;0;0;0;0;0;0;0;0;ksoftirqd/59
+20261103;20:02:34;3783642;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3783861;root;20;1;0;S;11120;0;2488;384;132;44;5148;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c 37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847 -u 37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847/userdata -p /run/containers/storage/overlay-containers/37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-4 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.4.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg 37ab139bddc5486dab3a24ef6f6b95aabd97af6812a97f3391def2e3e2747847 
+20261103;20:02:34;3783863;root;20;3783861;0;S;1104;0;760;172;132;588;8;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.4 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3783865;ceph;20;3783863;75;S;7257952;0;5790984;7209524;748;19320;12616;73;73.66;76.56;250;30:17:46;2094395;1;1041;106;3050;921;0;0;1537;/usr/bin/ceph-osd -n osd.4 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3795349;root;0;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kdmfl
+20261103;20:02:34;3795586;root;20;1;0;S;11120;0;2388;384;132;44;5148;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/conmon --api-version 1 -c e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276 -u e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276 -r /usr/bin/crun -b /var/lib/containers/storage/overlay-containers/e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276/userdata -p /run/containers/storage/overlay-containers/e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276/userdata/pidfile -n ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0-osd-5 --exit-dir /run/libpod/exits --persist-dir /run/libpod/persist/e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276 --full-attach -l journald --log-level warning --syslog --runtime-arg --log-format=json --runtime-arg --log --runtime-arg=/run/containers/storage/overlay-containers/e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276/userdata/oci-log --conmon-pidfile /run/ceph-acd88130-d785-11f1-ac92-d404e6e7d8e0@osd.5.service-pid --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /run/containers/storage --exit-command-arg --log-level --exit-command-arg warning --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /run/libpod --exit-command-arg --network-config-dir --exit-command-arg  --exit-command-arg --network-backend --exit-command-arg netavark --exit-command-arg --volumepath --exit-command-arg /var/lib/containers/storage/volumes --exit-command-arg --db-backend --exit-command-arg sqlite --exit-command-arg --transient-store=false --exit-command-arg --hooks-dir --exit-command-arg /usr/share/containers/oci/hooks.d --exit-command-arg --runtime --exit-command-arg crun --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --storage-opt --exit-command-arg overlay.mountopt=nodev,metacopy=on --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg --stopped-only --exit-command-arg --rm --exit-command-arg e8cdb0562b72121ca795572f15233d17b9f2e960f302e86d3178c99afd007276 
+20261103;20:02:34;3795588;root;20;3795586;0;S;1104;0;764;172;132;588;8;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/run/podman-init -- /usr/bin/ceph-osd -n osd.5 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;3795590;ceph;20;3795588;75;S;7361464;0;5781636;7313036;748;19320;12616;15;84.84;89.63;290;34:11:45;2442437;1;1466;107;3505;1037;0;0;218;/usr/bin/ceph-osd -n osd.5 -f --setuser ceph --setgroup ceph --default-log-to-file=false --default-log-to-journald=true --default-log-to-stderr=false --osd-objectstore=bluestore 
+20261103;20:02:34;38;root;RT;2;0;S;0;0;0;0;0;0;0;3;0.00;0.00;0;0:03:18;0;0;0;0;0;0;0;0;0;migration/3
+20261103;20:02:34;3809616;root;0;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:01;0;0;0;0;0;0;0;0;0;kworker/79:2H-xfs-log/dm-0
+20261103;20:02:34;3809620;root;20;1;0;S;8604;0;2600;1232;132;348;2376;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;SCREEN -S cbt 
+20261103;20:02:34;3809621;root;20;3809620;0;S;9236;0;6084;2400;136;876;1720;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/bash 
+20261103;20:02:34;3809655;root;20;3809621;2;S;2426000;0;94548;2186684;136;4;77440;23;0.00;0.01;0;0:00:35;0;0;24;1;42;3;0;0;5;python /cbt.main3/cbt/cbt.py -a /tmp/cbt -c /etc/ceph/ceph.conf /home/ljsanders/scripts/stretch/runtests_nohits_16vols_totaliod_cacheon_soko07_nostretch.yaml 
+20261103;20:02:34;381;root;20;2;0;S;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/60
+20261103;20:02:34;3815419;root;20;1;0;S;24468;0;9272;764;132;108;10288;43;0.00;0.00;0;0:00:02;0;0;0;0;0;0;0;0;0;/usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files 
+20261103;20:02:34;382;root;RT;2;0;S;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/60
+20261103;20:02:34;383;root;RT;2;0;S;0;0;0;0;0;0;0;60;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/60
+20261103;20:02:34;384;root;20;2;0;S;0;0;0;0;0;0;0;60;0.00;0.00;0;0:01:24;0;0;0;0;0;0;0;0;0;ksoftirqd/60
+20261103;20:02:34;3858115;root;20;2;0;I;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/34:2-mm_percpu_wq
+20261103;20:02:34;387;root;20;2;0;S;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/61
+20261103;20:02:34;3870296;root;0;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/27:2H-kblockd
+20261103;20:02:34;3870299;root;0;2;0;I;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/41:2H-kblockd
+20261103;20:02:34;3870307;root;0;2;0;I;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/73:0H-kblockd
+20261103;20:02:34;3870315;root;0;2;0;I;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/45:0H-kblockd
+20261103;20:02:34;3870317;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/5:1H
+20261103;20:02:34;3879419;root;0;2;0;I;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/18:2H-kblockd
+20261103;20:02:34;3879443;root;0;2;0;I;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/75:0H
+20261103;20:02:34;3879445;root;0;2;0;I;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/48:2H-kblockd
+20261103;20:02:34;3879446;root;0;2;0;I;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/52:0H-kblockd
+20261103;20:02:34;3879616;root;0;2;0;I;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/47:2H-kblockd
+20261103;20:02:34;3879619;root;0;2;0;I;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/77:0H-kblockd
+20261103;20:02:34;3879621;root;0;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:09;0;0;0;0;0;0;0;0;0;kworker/70:2H-kblockd
+20261103;20:02:34;3879626;root;0;2;0;I;0;0;0;0;0;0;0;68;0.01;0.00;0;0:00:09;0;0;0;0;0;0;0;0;0;kworker/68:0H-kblockd
+20261103;20:02:34;3879686;root;20;2;0;I;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/76:1
+20261103;20:02:34;388;root;RT;2;0;S;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/61
+20261103;20:02:34;389;root;RT;2;0;S;0;0;0;0;0;0;0;61;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/61
+20261103;20:02:34;389624;root;0;2;0;I;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/32:1H-kblockd
+20261103;20:02:34;389631;root;0;2;0;I;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/65:2H
+20261103;20:02:34;3898950;root;20;1;0;S;38692;0;4208;3096;132;268;12056;71;0.00;0.00;0;0:01:16;0;0;0;0;0;0;0;0;0;/usr/lib/systemd/systemd-udevd 
+20261103;20:02:34;39;root;20;2;0;S;0;0;0;0;0;0;0;3;0.02;0.00;0;0:03:28;0;0;0;0;0;0;0;0;0;ksoftirqd/3
+20261103;20:02:34;390;root;20;2;0;S;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/61
+20261103;20:02:34;3902148;root;0;2;0;I;0;0;0;0;0;0;0;15;0.00;0.00;0;0:01:08;0;0;0;0;0;0;0;0;0;kworker/15:0H-nvme_tcp_wq
+20261103;20:02:34;3919466;root;20;2;0;I;0;0;0;0;0;0;0;40;0.01;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/40:0-events
+20261103;20:02:34;393;root;20;2;0;S;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/62
+20261103;20:02:34;394;root;RT;2;0;S;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/62
+20261103;20:02:34;395;root;RT;2;0;S;0;0;0;0;0;0;0;62;0.00;0.00;0;0:01:35;0;0;0;0;0;0;0;0;0;migration/62
+20261103;20:02:34;396;root;20;2;0;S;0;0;0;0;0;0;0;62;0.00;0.00;0;0:01:05;0;0;0;0;0;0;0;0;0;ksoftirqd/62
+20261103;20:02:34;3968582;root;0;2;0;I;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/46:2H
+20261103;20:02:34;3985809;root;0;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:11:25;0;0;0;0;0;0;0;0;0;kworker/3:0H-nvme_tcp_wq
+20261103;20:02:34;3985829;root;0;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:13:58;0;0;0;0;0;0;0;0;0;kworker/22:2H-nvme_tcp_wq
+20261103;20:02:34;3989995;root;0;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:05;0;0;0;0;0;0;0;0;0;kworker/78:1H-xfs-log/dm-2
+20261103;20:02:34;399;root;20;2;0;S;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/63
+20261103;20:02:34;4;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-rcu_g
+20261103;20:02:34;400;root;RT;2;0;S;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/63
+20261103;20:02:34;401;root;RT;2;0;S;0;0;0;0;0;0;0;63;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/63
+20261103;20:02:34;402;root;20;2;0;S;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:56;0;0;0;0;0;0;0;0;0;ksoftirqd/63
+20261103;20:02:34;405;root;20;2;0;S;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/64
+20261103;20:02:34;406;root;RT;2;0;S;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/64
+20261103;20:02:34;407;root;RT;2;0;S;0;0;0;0;0;0;0;64;0.00;0.00;0;0:01:33;0;0;0;0;0;0;0;0;0;migration/64
+20261103;20:02:34;408;root;20;2;0;S;0;0;0;0;0;0;0;64;0.00;0.00;0;0:01:03;0;0;0;0;0;0;0;0;0;ksoftirqd/64
+20261103;20:02:34;4080657;root;20;2;0;I;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/66:2-events
+20261103;20:02:34;4097237;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-nvme_
+20261103;20:02:34;4101127;root;20;2;0;I;0;0;0;0;0;0;0;40;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/40:1-cgroup_destroy
+20261103;20:02:34;411;root;20;2;0;S;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;rcu_exp_par_gp_
+20261103;20:02:34;412;root;20;2;0;S;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/65
+20261103;20:02:34;4128086;root;0;2;0;I;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/25:1H-kblockd
+20261103;20:02:34;4128091;root;0;2;0;I;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/43:2H
+20261103;20:02:34;4128098;root;0;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/56:2H-kblockd
+20261103;20:02:34;413;root;RT;2;0;S;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/65
+20261103;20:02:34;414;root;RT;2;0;S;0;0;0;0;0;0;0;65;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/65
+20261103;20:02:34;415;root;20;2;0;S;0;0;0;0;0;0;0;65;0.01;0.00;0;0:00:54;0;0;0;0;0;0;0;0;0;ksoftirqd/65
+20261103;20:02:34;4164114;root;20;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:04:08;0;0;0;0;0;0;0;0;0;kworker/u320:2-bnxt_pf_wq
+20261103;20:02:34;4168563;root;20;2;0;I;0;0;0;0;0;0;0;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/6:1-events
+20261103;20:02:34;418;root;20;2;0;S;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/66
+20261103;20:02:34;419;root;RT;2;0;S;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/66
+20261103;20:02:34;42;root;20;2;0;S;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/4
+20261103;20:02:34;420;root;RT;2;0;S;0;0;0;0;0;0;0;66;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/66
+20261103;20:02:34;421;root;20;2;0;S;0;0;0;0;0;0;0;66;0.00;0.00;0;0:01:17;0;0;0;0;0;0;0;0;0;ksoftirqd/66
+20261103;20:02:34;424;root;20;2;0;S;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/67
+20261103;20:02:34;425;root;RT;2;0;S;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/67
+20261103;20:02:34;426;root;RT;2;0;S;0;0;0;0;0;0;0;67;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/67
+20261103;20:02:34;427;root;20;2;0;S;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:47;0;0;0;0;0;0;0;0;0;ksoftirqd/67
+20261103;20:02:34;43;root;RT;2;0;S;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/4
+20261103;20:02:34;430;root;20;2;0;S;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/68
+20261103;20:02:34;431;root;RT;2;0;S;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/68
+20261103;20:02:34;431728;root;20;2;0;I;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/72:2-events
+20261103;20:02:34;432;root;RT;2;0;S;0;0;0;0;0;0;0;68;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/68
+20261103;20:02:34;433;root;20;2;0;S;0;0;0;0;0;0;0;68;0.00;0.00;0;0:01:35;0;0;0;0;0;0;0;0;0;ksoftirqd/68
+20261103;20:02:34;435274;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:23:43;0;0;0;0;0;0;0;0;0;kworker/1:0H-nvme_tcp_wq
+20261103;20:02:34;436;root;20;2;0;S;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/69
+20261103;20:02:34;437;root;RT;2;0;S;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/69
+20261103;20:02:34;438;root;RT;2;0;S;0;0;0;0;0;0;0;69;0.00;0.00;0;0:01:33;0;0;0;0;0;0;0;0;0;migration/69
+20261103;20:02:34;439;root;20;2;0;S;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:51;0;0;0;0;0;0;0;0;0;ksoftirqd/69
+20261103;20:02:34;44;root;RT;2;0;S;0;0;0;0;0;0;0;4;0.00;0.00;0;0:03:22;0;0;0;0;0;0;0;0;0;migration/4
+20261103;20:02:34;442;root;20;2;0;S;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/70
+20261103;20:02:34;443;root;RT;2;0;S;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/70
+20261103;20:02:34;444;root;RT;2;0;S;0;0;0;0;0;0;0;70;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/70
+20261103;20:02:34;445;root;20;2;0;S;0;0;0;0;0;0;0;70;0.00;0.00;0;0:01:08;0;0;0;0;0;0;0;0;0;ksoftirqd/70
+20261103;20:02:34;448;root;20;2;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/71
+20261103;20:02:34;449;root;RT;2;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/71
+20261103;20:02:34;45;root;20;2;0;S;0;0;0;0;0;0;0;4;0.01;0.00;0;0:03:37;0;0;0;0;0;0;0;0;0;ksoftirqd/4
+20261103;20:02:34;450;root;RT;2;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/71
+20261103;20:02:34;451;root;20;2;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/71
+20261103;20:02:34;454;root;20;2;0;S;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/72
+20261103;20:02:34;455;root;RT;2;0;S;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/72
+20261103;20:02:34;456;root;RT;2;0;S;0;0;0;0;0;0;0;72;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/72
+20261103;20:02:34;457;root;20;2;0;S;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:45;0;0;0;0;0;0;0;0;0;ksoftirqd/72
+20261103;20:02:34;460;root;20;2;0;S;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/73
+20261103;20:02:34;461;root;RT;2;0;S;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/73
+20261103;20:02:34;462;root;RT;2;0;S;0;0;0;0;0;0;0;73;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/73
+20261103;20:02:34;463;root;20;2;0;S;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:59;0;0;0;0;0;0;0;0;0;ksoftirqd/73
+20261103;20:02:34;466;root;20;2;0;S;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/74
+20261103;20:02:34;467;root;RT;2;0;S;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/74
+20261103;20:02:34;468;root;RT;2;0;S;0;0;0;0;0;0;0;74;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/74
+20261103;20:02:34;469;root;20;2;0;S;0;0;0;0;0;0;0;74;0.00;0.00;0;0:01:04;0;0;0;0;0;0;0;0;0;ksoftirqd/74
+20261103;20:02:34;472;root;20;2;0;S;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/75
+20261103;20:02:34;473;root;RT;2;0;S;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/75
+20261103;20:02:34;474;root;RT;2;0;S;0;0;0;0;0;0;0;75;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/75
+20261103;20:02:34;475;root;20;2;0;S;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:44;0;0;0;0;0;0;0;0;0;ksoftirqd/75
+20261103;20:02:34;478;root;20;2;0;S;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/76
+20261103;20:02:34;479;root;RT;2;0;S;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/76
+20261103;20:02:34;48;root;20;2;0;S;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/5
+20261103;20:02:34;480;root;RT;2;0;S;0;0;0;0;0;0;0;76;0.00;0.00;0;0:01:32;0;0;0;0;0;0;0;0;0;migration/76
+20261103;20:02:34;481;root;20;2;0;S;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:45;0;0;0;0;0;0;0;0;0;ksoftirqd/76
+20261103;20:02:34;484;root;20;2;0;S;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/77
+20261103;20:02:34;485;root;RT;2;0;S;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/77
+20261103;20:02:34;486;root;RT;2;0;S;0;0;0;0;0;0;0;77;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/77
+20261103;20:02:34;486455;root;0;2;0;I;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:03;0;0;0;0;0;0;0;0;0;kworker/75:2H-kblockd
+20261103;20:02:34;487;root;20;2;0;S;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:59;0;0;0;0;0;0;0;0;0;ksoftirqd/77
+20261103;20:02:34;49;root;RT;2;0;S;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/5
+20261103;20:02:34;490;root;20;2;0;S;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/78
+20261103;20:02:34;491;root;RT;2;0;S;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/78
+20261103;20:02:34;492;root;RT;2;0;S;0;0;0;0;0;0;0;78;0.00;0.00;0;0:01:34;0;0;0;0;0;0;0;0;0;migration/78
+20261103;20:02:34;493;root;20;2;0;S;0;0;0;0;0;0;0;78;0.00;0.00;0;0:01:06;0;0;0;0;0;0;0;0;0;ksoftirqd/78
+20261103;20:02:34;496;root;20;2;0;S;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/79
+20261103;20:02:34;496513;root;0;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:45:37;0;0;0;0;0;0;0;0;0;kworker/5:0H-kblockd
+20261103;20:02:34;497;root;RT;2;0;S;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/79
+20261103;20:02:34;498;root;RT;2;0;S;0;0;0;0;0;0;0;79;0.00;0.00;0;0:01:36;0;0;0;0;0;0;0;0;0;migration/79
+20261103;20:02:34;499;root;20;2;0;S;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:49;0;0;0;0;0;0;0;0;0;ksoftirqd/79
+20261103;20:02:34;5;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-sync_
+20261103;20:02:34;50;root;RT;2;0;S;0;0;0;0;0;0;0;5;0.00;0.00;0;0:03:12;0;0;0;0;0;0;0;0;0;migration/5
+20261103;20:02:34;51;root;20;2;0;S;0;0;0;0;0;0;0;5;0.01;0.00;0;0:02:03;0;0;0;0;0;0;0;0;0;ksoftirqd/5
+20261103;20:02:34;518099;root;20;2;0;I;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/18:0-events
+20261103;20:02:34;520638;root;20;2;0;I;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/24:1-events
+20261103;20:02:34;520697;root;20;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/16:1-events
+20261103;20:02:34;521507;root;20;2;0;I;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/20:1-mm_percpu_wq
+20261103;20:02:34;521971;root;20;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/22:1-mm_percpu_wq
+20261103;20:02:34;54;root;20;2;0;S;0;0;0;0;0;0;0;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/6
+20261103;20:02:34;541815;root;20;1;0;S;8448;0;256;1076;132;348;2376;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;SCREEN -S nvme 
+20261103;20:02:34;541816;root;20;541815;0;S;9244;0;8;2408;136;876;1720;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/bin/bash 
+20261103;20:02:34;55;root;RT;2;0;S;0;0;0;0;0;0;0;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/6
+20261103;20:02:34;56;root;RT;2;0;S;0;0;0;0;0;0;0;6;0.00;0.00;0;0:03:10;0;0;0;0;0;0;0;0;0;migration/6
+20261103;20:02:34;560593;root;0;2;0;I;0;0;0;0;0;0;0;14;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/14:0H-kblockd
+20261103;20:02:34;560599;root;0;2;0;I;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/66:1H-kblockd
+20261103;20:02:34;560600;root;0;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/4:2H-kblockd
+20261103;20:02:34;569586;root;0;2;0;I;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/74:0H-kblockd
+20261103;20:02:34;569592;root;0;2;0;I;0;0;0;0;0;0;0;59;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/59:0H
+20261103;20:02:34;569593;root;0;2;0;I;0;0;0;0;0;0;0;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/10:0H
+20261103;20:02:34;569595;root;0;2;0;I;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/29:2H-kblockd
+20261103;20:02:34;569596;root;0;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/31:0H-kblockd
+20261103;20:02:34;569598;root;0;2;0;I;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/23:2H
+20261103;20:02:34;569606;root;0;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/70:1H-kblockd
+20261103;20:02:34;57;root;20;2;0;S;0;0;0;0;0;0;0;6;0.00;0.00;0;0:02:24;0;0;0;0;0;0;0;0;0;ksoftirqd/6
+20261103;20:02:34;57582;root;20;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/4:2-events
+20261103;20:02:34;580760;root;0;2;0;I;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:41;0;0;0;0;0;0;0;0;0;kworker/30:2H-kblockd
+20261103;20:02:34;580761;root;0;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:01:16;0;0;0;0;0;0;0;0;0;kworker/7:2H-kblockd
+20261103;20:02:34;580762;root;0;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:51;0;0;0;0;0;0;0;0;0;kworker/9:0H-kblockd
+20261103;20:02:34;580763;root;0;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:58;0;0;0;0;0;0;0;0;0;kworker/3:2H-kblockd
+20261103;20:02:34;580768;root;0;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:45;0;0;0;0;0;0;0;0;0;kworker/13:1H-kblockd
+20261103;20:02:34;580770;root;0;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:58;0;0;0;0;0;0;0;0;0;kworker/22:0H-kblockd
+20261103;20:02:34;580773;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/16:0H
+20261103;20:02:34;580778;root;0;2;0;I;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:51;0;0;0;0;0;0;0;0;0;kworker/15:1H-kblockd
+20261103;20:02:34;580788;root;0;2;0;I;0;0;0;0;0;0;0;26;0.00;0.00;0;0:00:45;0;0;0;0;0;0;0;0;0;kworker/26:1H-kblockd
+20261103;20:02:34;581400;root;0;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:19:07;0;0;0;0;0;0;0;0;0;kworker/8:2H-kblockd
+20261103;20:02:34;584;root;20;2;0;S;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kdevtmpfs
+20261103;20:02:34;585;root;0;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-inet_
+20261103;20:02:34;585632;root;0;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:27;0;0;0;0;0;0;0;0;0;kworker/11:2H-kblockd
+20261103;20:02:34;586;root;20;2;0;S;0;0;0;0;0;0;0;71;0.00;0.00;0;0:01:22;0;0;0;0;0;0;0;0;0;kauditd
+20261103;20:02:34;586315;root;0;2;0;I;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/30:0H
+20261103;20:02:34;587;root;20;2;0;S;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:55;0;0;0;0;0;0;0;0;0;khungtaskd
+20261103;20:02:34;588;root;20;2;0;S;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;oom_reaper
+20261103;20:02:34;589;root;0;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-write
+20261103;20:02:34;590;root;20;2;0;S;0;0;0;0;0;0;0;44;0.00;0.00;0;0:47:19;0;0;0;0;0;0;0;0;0;kcompactd0
+20261103;20:02:34;591;root;20;2;0;S;0;0;0;0;0;0;0;55;0.00;0.00;0;1:17:28;0;0;0;0;0;0;0;0;0;kcompactd1
+20261103;20:02:34;592;root;25;2;0;S;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;ksmd
+20261103;20:02:34;593;root;39;2;0;S;0;0;0;0;0;0;0;74;0.03;0.00;0;0:18:37;0;0;0;0;0;0;0;0;0;khugepaged
+20261103;20:02:34;594;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-crypt
+20261103;20:02:34;595;root;0;2;0;I;0;0;0;0;0;0;0;1;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kinte
+20261103;20:02:34;596;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kbloc
+20261103;20:02:34;598;root;RT;2;0;S;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/9-acpi
+20261103;20:02:34;599;root;0;2;0;I;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-tpm_d
+20261103;20:02:34;6;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-slub_
+20261103;20:02:34;60;root;20;2;0;S;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/7
+20261103;20:02:34;600;root;0;2;0;I;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-md
+20261103;20:02:34;601;root;0;2;0;I;0;0;0;0;0;0;0;22;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-md_bi
+20261103;20:02:34;602;root;0;2;0;I;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-edac-
+20261103;20:02:34;603;root;RT;2;0;S;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;watchdogd
+20261103;20:02:34;604;root;0;2;0;I;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:19;0;0;0;0;0;0;0;0;0;kworker/48:1H-kblockd
+20261103;20:02:34;604074;ljsanders;20;1;0;S;1104;0;8;172;132;588;8;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;catatonit -P 
+20261103;20:02:34;604092;ljsanders;20;1695578;0;S;10464;0;8;380;132;84;5352;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/dbus-broker-launch --scope user 
+20261103;20:02:34;604093;ljsanders;20;604092;0;S;4904;0;1368;308;132;148;2800;43;0.00;0.00;0;0:00:47;0;0;0;0;0;0;0;0;0;dbus-broker --log 4 --controller 9 --machine-id 8011a1e8430a4e02b4c89c4d5d844a5f --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000 
+20261103;20:02:34;606;root;20;2;0;S;0;0;0;0;0;0;0;20;0.00;0.00;0;3:02:45;0;0;0;0;0;0;0;0;0;kswapd0
+20261103;20:02:34;606222;root;0;2;0;I;0;0;0;0;0;0;0;20;0.01;0.00;0;0:09:36;0;0;0;0;0;0;0;0;0;kworker/20:2H-kblockd
+20261103;20:02:34;607;root;20;2;0;S;0;0;0;0;0;0;0;57;0.00;0.00;0;5:40:17;0;0;0;0;0;0;0;0;0;kswapd1
+20261103;20:02:34;609133;cjames;20;1;0;S;25860;0;7320;3864;132;44;12788;7;0.00;0.00;0;0:03:55;0;0;0;0;1;0;0;0;0;/usr/lib/systemd/systemd --user 
+20261103;20:02:34;609135;cjames;20;609133;0;S;180704;0;196;25724;1032;44;13536;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;(sd-pam) 
+20261103;20:02:34;61;root;RT;2;0;S;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/7
+20261103;20:02:34;614420;root;20;2;0;I;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/15:0-events
+20261103;20:02:34;62;root;RT;2;0;S;0;0;0;0;0;0;0;7;0.00;0.00;0;0:02:59;0;0;0;0;0;0;0;0;0;migration/7
+20261103;20:02:34;624;root;0;2;0;I;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kthro
+20261103;20:02:34;627195;cjames;20;1;0;S;1108;0;8;172;136;588;8;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;catatonit -P 
+20261103;20:02:34;627212;cjames;20;609133;0;S;10464;0;8;380;132;84;5352;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;/usr/bin/dbus-broker-launch --scope user 
+20261103;20:02:34;627213;cjames;20;627212;0;S;4904;0;928;308;132;148;2800;11;0.00;0.00;0;0:00:35;0;0;0;0;0;0;0;0;0;dbus-broker --log 4 --controller 9 --machine-id 8011a1e8430a4e02b4c89c4d5d844a5f --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000 
+20261103;20:02:34;63;root;20;2;0;S;0;0;0;0;0;0;0;7;0.01;0.00;0;0:01:26;0;0;0;0;0;0;0;0;0;ksoftirqd/7
+20261103;20:02:34;630;root;RT;2;0;S;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/143-pciehp
+20261103;20:02:34;631;root;RT;2;0;S;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/144-pciehp
+20261103;20:02:34;632;root;RT;2;0;S;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/145-pciehp
+20261103;20:02:34;633;root;RT;2;0;S;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/146-pciehp
+20261103;20:02:34;634;root;RT;2;0;S;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/148-pciehp
+20261103;20:02:34;635;root;RT;2;0;S;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/149-pciehp
+20261103;20:02:34;637;root;RT;2;0;S;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/155-pciehp
+20261103;20:02:34;638;root;RT;2;0;S;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/156-pciehp
+20261103;20:02:34;639;root;RT;2;0;S;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/157-pciehp
+20261103;20:02:34;640;root;RT;2;0;S;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;irq/158-pciehp
+20261103;20:02:34;642;root;0;2;0;I;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-acpi_
+20261103;20:02:34;643826;root;20;2;0;I;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/51:0-events
+20261103;20:02:34;645;root;20;2;0;S;0;0;0;0;0;0;0;39;0.00;0.00;0;0:13:34;0;0;0;0;0;0;0;0;0;hwrng
+20261103;20:02:34;645121;root;20;2;0;I;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/29:2-events
+20261103;20:02:34;646;root;0;2;0;I;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kmpat
+20261103;20:02:34;647;root;0;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kalua
+20261103;20:02:34;649;root;0;2;0;I;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-mld
+20261103;20:02:34;650;root;0;2;0;I;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-ipv6_
+20261103;20:02:34;651111;root;20;2;0;I;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/41:2-events
+20261103;20:02:34;655;root;0;2;0;I;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-kstrp
+20261103;20:02:34;656755;root;20;2;0;I;0;0;0;0;0;0;0;4;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/4:1
+20261103;20:02:34;66;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/8
+20261103;20:02:34;664166;root;20;2;0;I;0;0;0;0;0;0;0;20;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/20:0
+20261103;20:02:34;668590;root;20;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/27:0-cgroup_destroy
+20261103;20:02:34;67;root;RT;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/8
+20261103;20:02:34;671408;root;20;2;0;I;0;0;0;0;0;0;0;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/73:2-events
+20261103;20:02:34;68;root;RT;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:03:01;0;0;0;0;0;0;0;0;0;migration/8
+20261103;20:02:34;689219;root;20;2;0;I;0;0;0;0;0;0;0;48;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/48:2
+20261103;20:02:34;69;root;20;2;0;S;0;0;0;0;0;0;0;8;0.00;0.00;0;0:02:46;0;0;0;0;0;0;0;0;0;ksoftirqd/8
+20261103;20:02:34;690;root;0;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u323:0
+20261103;20:02:34;690141;root;20;2;0;I;0;0;0;0;0;0;0;8;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/8:0
+20261103;20:02:34;691;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u324:0
+20261103;20:02:34;692;root;0;2;0;I;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u325:0
+20261103;20:02:34;7;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/R-netns
+20261103;20:02:34;710014;root;20;2;0;I;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/57:0-events
+20261103;20:02:34;719240;root;20;2;0;I;0;0;0;0;0;0;0;47;0.01;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/47:0-events
+20261103;20:02:34;719344;root;20;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/79:2-events
+20261103;20:02:34;72;root;20;2;0;S;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/9
+20261103;20:02:34;721776;root;20;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/35:0-events
+20261103;20:02:34;722054;root;20;2;0;I;0;0;0;0;0;0;0;55;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/55:2-events
+20261103;20:02:34;727752;root;20;2;0;I;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/52:1-events
+20261103;20:02:34;728586;root;20;2;0;I;0;0;0;0;0;0;0;46;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/46:0
+20261103;20:02:34;729250;root;20;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/56:1-events
+20261103;20:02:34;73;root;RT;2;0;S;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/9
+20261103;20:02:34;739463;root;20;2;0;I;0;0;0;0;0;0;0;59;0.03;0.00;0;0:00:03;0;0;0;0;0;0;0;0;0;kworker/59:2-events
+20261103;20:02:34;739583;root;20;1;0;S;25212;0;13156;20144;132;604;2332;21;0.00;0.00;0;0:03:26;0;0;0;0;0;0;0;0;0;tmux new -s callym 
+20261103;20:02:34;739685;root;20;739583;0;S;9216;0;8;2384;132;876;1720;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;-bash 
+20261103;20:02:34;74;root;RT;2;0;S;0;0;0;0;0;0;0;9;0.00;0.00;0;0:02:53;0;0;0;0;0;0;0;0;0;migration/9
+20261103;20:02:34;744823;root;20;2;0;I;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/69:2-cgroup_destroy
+20261103;20:02:34;75;root;20;2;0;S;0;0;0;0;0;0;0;9;0.00;0.00;0;0:01:28;0;0;0;0;0;0;0;0;0;ksoftirqd/9
+20261103;20:02:34;757581;root;20;2;0;I;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/58:2-cgroup_destroy
+20261103;20:02:34;757897;root;20;2;0;I;0;0;0;0;0;0;0;64;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/64:1
+20261103;20:02:34;758893;root;20;2;0;I;0;0;0;0;0;0;0;62;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/62:1-cgroup_destroy
+20261103;20:02:34;760520;root;20;2;0;I;0;0;0;0;0;0;0;76;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/76:2-events
+20261103;20:02:34;761482;root;20;2;0;I;0;0;0;0;0;0;0;78;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/78:0-cgroup_destroy
+20261103;20:02:34;765330;root;20;2;0;I;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/30:2-cgroup_destroy
+20261103;20:02:34;767869;root;20;2;0;I;0;0;0;0;0;0;0;24;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/24:2
+20261103;20:02:34;78;root;20;2;0;S;0;0;0;0;0;0;0;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/10
+20261103;20:02:34;780069;root;20;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/9:1-events
+20261103;20:02:34;785783;root;20;2;0;I;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/77:2-cgroup_destroy
+20261103;20:02:34;786137;root;20;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/11:2-events
+20261103;20:02:34;79;root;RT;2;0;S;0;0;0;0;0;0;0;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/10
+20261103;20:02:34;796912;root;20;2;0;D;0;0;0;0;0;0;0;69;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/69:3+events
+20261103;20:02:34;799492;root;20;2;0;I;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/67:2-events
+20261103;20:02:34;799894;root;20;2;0;I;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/71:2-events
+20261103;20:02:34;80;root;RT;2;0;S;0;0;0;0;0;0;0;10;0.00;0.00;0;0:02:48;0;0;0;0;0;0;0;0;0;migration/10
+20261103;20:02:34;802;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;1:06:33;0;0;0;0;0;0;0;0;0;kworker/0:1H-kblockd
+20261103;20:02:34;802347;root;20;2;0;I;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/44:2-events
+20261103;20:02:34;81;root;20;2;0;S;0;0;0;0;0;0;0;10;0.01;0.00;0;0:01:33;0;0;0;0;0;0;0;0;0;ksoftirqd/10
+20261103;20:02:34;810905;root;20;2;0;I;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/25:0-events
+20261103;20:02:34;819479;root;20;2;0;I;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/50:1-events
+20261103;20:02:34;820743;root;20;2;0;I;0;0;0;0;0;0;0;58;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/58:0-mm_percpu_wq
+20261103;20:02:34;821127;root;20;2;0;I;0;0;0;0;0;0;0;28;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/28:1
+20261103;20:02:34;821419;root;20;2;0;I;0;0;0;0;0;0;0;32;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/32:1
+20261103;20:02:34;822301;root;20;2;0;I;0;0;0;0;0;0;0;42;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/42:0
+20261103;20:02:34;827421;root;20;2;0;I;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/43:2-events
+20261103;20:02:34;829217;root;20;2;0;I;0;0;0;0;0;0;0;68;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/68:0-cgroup_destroy
+20261103;20:02:34;831149;root;20;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:01;0;0;0;0;0;0;0;0;0;kworker/u321:2-events_unbound
+20261103;20:02:34;831606;root;20;2;0;I;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/34:1
+20261103;20:02:34;836923;root;20;2;0;I;0;0;0;0;0;0;0;66;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/66:1
+20261103;20:02:34;84;root;20;2;0;S;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/11
+20261103;20:02:34;842231;root;20;2;0;I;0;0;0;0;0;0;0;72;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/72:1
+20261103;20:02:34;843517;root;20;2;0;I;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/37:0-cgroup_destroy
+20261103;20:02:34;846227;root;20;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/27:1-events
+20261103;20:02:34;848763;root;20;2;0;I;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/65:1-events
+20261103;20:02:34;848808;root;20;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/33:2-events
+20261103;20:02:34;849221;root;20;2;0;I;0;0;0;0;0;0;0;6;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/6:2
+20261103;20:02:34;849769;root;20;2;0;I;0;0;0;0;0;0;0;39;0.05;0.00;0;0:00:01;0;0;0;0;0;0;0;0;0;kworker/u322:13-flush-253:7
+20261103;20:02:34;85;root;RT;2;0;S;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/11
+20261103;20:02:34;850;root;0;2;0;I;0;0;0;0;0;0;0;52;0.00;0.00;0;0:00:24;0;0;0;0;0;0;0;0;0;kworker/52:1H-kblockd
+20261103;20:02:34;852704;root;20;2;0;I;0;0;0;0;0;0;0;54;0.04;0.00;0;0:00:01;0;0;0;0;0;0;0;0;0;kworker/u321:1-events_unbound
+20261103;20:02:34;853;root;0;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:37:02;0;0;0;0;0;0;0;0;0;kworker/31:1H-kblockd
+20261103;20:02:34;854;root;0;2;0;I;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:12;0;0;0;0;0;0;0;0;0;kworker/53:1H-kblockd
+20261103;20:02:34;86;root;RT;2;0;S;0;0;0;0;0;0;0;11;0.00;0.00;0;0:02:42;0;0;0;0;0;0;0;0;0;migration/11
+20261103;20:02:34;87;root;20;2;0;S;0;0;0;0;0;0;0;11;0.00;0.00;0;0:01:21;0;0;0;0;0;0;0;0;0;ksoftirqd/11
+20261103;20:02:34;873763;root;20;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/70:0-events
+20261103;20:02:34;873865;root;20;2;0;I;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/60:2-events
+20261103;20:02:34;873866;root;20;2;0;I;0;0;0;0;0;0;0;56;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/56:2-mm_percpu_wq
+20261103;20:02:34;878068;root;0;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:13:55;0;0;0;0;0;0;0;0;0;kworker/17:2H-kblockd
+20261103;20:02:34;878074;root;0;2;0;I;0;0;0;0;0;0;0;34;0.00;0.00;0;0:00:15;0;0;0;0;0;0;0;0;0;kworker/34:1H-kblockd
+20261103;20:02:34;881220;root;20;2;0;I;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/38:0-mm_percpu_wq
+20261103;20:02:34;881731;root;20;2;0;I;0;0;0;0;0;0;0;50;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/50:0
+20261103;20:02:34;885489;root;20;2;0;I;0;0;0;0;0;0;0;74;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/74:2
+20261103;20:02:34;885587;root;20;2;0;I;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/49:0-events
+20261103;20:02:34;886940;root;0;2;0;I;0;0;0;0;0;0;0;16;0.00;0.00;0;0:09:13;0;0;0;0;0;0;0;0;0;kworker/16:2H-kblockd
+20261103;20:02:34;888461;root;20;2;0;I;0;0;0;0;0;0;0;2;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/2:0
+20261103;20:02:34;891113;root;20;2;0;I;0;0;0;0;0;0;0;60;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/60:1-events
+20261103;20:02:34;891229;root;20;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/61:1-events
+20261103;20:02:34;897688;root;20;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/21:0-events
+20261103;20:02:34;9;root;0;2;0;I;0;0;0;0;0;0;0;0;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/0:0H-events_highpri
+20261103;20:02:34;90;root;20;2;0;S;0;0;0;0;0;0;0;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/12
+20261103;20:02:34;903311;root;20;2;0;I;0;0;0;0;0;0;0;75;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/75:2-rcu_gp
+20261103;20:02:34;906118;root;20;2;0;I;0;0;0;0;0;0;0;15;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/15:2-cgroup_destroy
+20261103;20:02:34;906119;root;20;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/17:2-events
+20261103;20:02:34;908007;root;20;2;0;I;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/23:3-events
+20261103;20:02:34;908008;root;20;2;0;I;0;0;0;0;0;0;0;44;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/44:0-cgroup_destroy
+20261103;20:02:34;908046;root;20;2;0;I;0;0;0;0;0;0;0;67;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/67:0-cgroup_destroy
+20261103;20:02:34;91;root;RT;2;0;S;0;0;0;0;0;0;0;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/12
+20261103;20:02:34;919421;root;20;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/13:2-cgroup_destroy
+20261103;20:02:34;919422;root;20;2;0;I;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/45:2-events
+20261103;20:02:34;92;root;RT;2;0;S;0;0;0;0;0;0;0;12;0.00;0.00;0;0:02:40;0;0;0;0;0;0;0;0;0;migration/12
+20261103;20:02:34;922422;root;20;2;0;I;0;0;0;0;0;0;0;79;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:3-flush-253:0
+20261103;20:02:34;925400;root;20;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/3:1-cgroup_destroy
+20261103;20:02:34;93;root;20;2;0;S;0;0;0;0;0;0;0;12;0.00;0.00;0;0:01:43;0;0;0;0;0;0;0;0;0;ksoftirqd/12
+20261103;20:02:34;937931;root;20;2;0;I;0;0;0;0;0;0;0;29;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/29:0
+20261103;20:02:34;941925;root;20;2;0;I;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/19:1-events
+20261103;20:02:34;944606;root;20;2;0;I;0;0;0;0;0;0;0;77;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/77:1
+20261103;20:02:34;945863;root;20;2;0;I;0;0;0;0;0;0;0;30;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u321:0-events_unbound
+20261103;20:02:34;948552;root;20;2;0;I;0;0;0;0;0;0;0;18;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/18:2-events
+20261103;20:02:34;948640;root;20;2;0;I;0;0;0;0;0;0;0;10;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/10:1
+20261103;20:02:34;950412;root;20;2;0;I;0;0;0;0;0;0;0;5;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/5:0-mm_percpu_wq
+20261103;20:02:34;950479;root;20;2;0;I;0;0;0;0;0;0;0;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/70:1
+20261103;20:02:34;952325;root;20;2;0;I;0;0;0;0;0;0;0;48;0.04;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u321:4-events_unbound
+20261103;20:02:34;952338;root;20;2;0;I;0;0;0;0;0;0;0;36;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/36:1
+20261103;20:02:34;954926;root;20;2;0;I;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/53:0-cgroup_destroy
+20261103;20:02:34;955205;root;20;2;0;I;0;0;0;0;0;0;0;37;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/37:1-events
+20261103;20:02:34;957905;root;20;2;0;I;0;0;0;0;0;0;0;1;0.00;0.02;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/1:1-rcu_gp
+20261103;20:02:34;958020;root;20;2;0;I;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/13:0-inode_switch_wbs
+20261103;20:02:34;96;root;20;2;0;S;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cpuhp/13
+20261103;20:02:34;960501;root;20;2;0;I;0;0;0;0;0;0;0;19;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/19:2-cgroup_destroy
+20261103;20:02:34;960950;root;20;2;0;I;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/39:0-events
+20261103;20:02:34;963281;root;20;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:14-flush-253:3
+20261103;20:02:34;963589;root;20;2;0;I;0;0;0;0;0;0;0;65;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/65:2-cgroup_destroy
+20261103;20:02:34;963670;root;20;2;0;I;0;0;0;0;0;0;0;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/7:2-events
+20261103;20:02:34;963813;root;20;2;0;I;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/63:0-events
+20261103;20:02:34;963826;root;20;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/3:0-cgroup_destroy
+20261103;20:02:34;966518;root;20;2;0;I;0;0;0;0;0;0;0;12;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/12:2-events
+20261103;20:02:34;966640;root;20;2;0;I;0;0;0;0;0;0;0;14;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/14:0-events
+20261103;20:02:34;969055;root;20;2;0;I;0;0;0;0;0;0;0;53;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/53:2-events
+20261103;20:02:34;97;root;RT;2;0;S;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;idle_inject/13
+20261103;20:02:34;975;root;0;2;0;I;0;0;0;0;0;0;0;61;0.00;0.00;0;0:00:14;0;0;0;0;0;0;0;0;0;kworker/61:1H-kblockd
+20261103;20:02:34;977619;root;20;2;0;I;0;0;0;0;0;0;0;25;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/25:1-xfs-inodegc/dm-0
+20261103;20:02:34;98;root;RT;2;0;S;0;0;0;0;0;0;0;13;0.00;0.00;0;0:02:35;0;0;0;0;0;0;0;0;0;migration/13
+20261103;20:02:34;980347;root;20;2;0;I;0;0;0;0;0;0;0;23;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/23:0
+20261103;20:02:34;981267;root;20;2;0;I;0;0;0;0;0;0;0;47;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/47:3
+20261103;20:02:34;982176;root;20;2;0;I;0;0;0;0;0;0;0;3;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:0-flush-253:0
+20261103;20:02:34;983516;root;20;2;0;I;0;0;0;0;0;0;0;33;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/33:0-cgroup_destroy
+20261103;20:02:34;983975;root;20;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/31:1-events
+20261103;20:02:34;986490;root;20;2;0;I;0;0;0;0;0;0;0;11;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/11:0
+20261103;20:02:34;986596;root;20;2;0;I;0;0;0;0;0;0;0;41;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/41:1-inode_switch_wbs
+20261103;20:02:34;988927;root;20;2;0;I;0;0;0;0;0;0;0;3;0.01;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:4-events_unbound
+20261103;20:02:34;989067;root;20;2;0;I;0;0;0;0;0;0;0;45;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/45:1
+20261103;20:02:34;989300;root;20;2;0;I;0;0;0;0;0;0;0;51;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/51:1-events
+20261103;20:02:34;989308;root;20;2;0;I;0;0;0;0;0;0;0;35;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/35:1-cgroup_destroy
+20261103;20:02:34;989391;root;20;2;0;I;0;0;0;0;0;0;0;49;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/49:1-events
+20261103;20:02:34;99;root;20;2;0;S;0;0;0;0;0;0;0;13;0.00;0.00;0;0:00:58;0;0;0;0;0;0;0;0;0;ksoftirqd/13
+20261103;20:02:34;991744;root;20;2;0;I;0;0;0;0;0;0;0;79;0.04;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:5-flush-253:6
+20261103;20:02:34;991840;root;20;2;0;I;0;0;0;0;0;0;0;71;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/71:1
+20261103;20:02:34;992121;root;20;2;0;I;0;0;0;0;0;0;0;17;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/17:0-events
+20261103;20:02:34;992122;root;20;2;0;I;0;0;0;0;0;0;0;21;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/21:2-cgroup_destroy
+20261103;20:02:34;994988;root;20;2;0;I;0;0;0;0;0;0;0;57;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/57:2-events
+20261103;20:02:34;994989;root;20;2;0;I;0;0;0;0;0;0;0;9;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/9:0-cgroup_destroy
+20261103;20:02:34;997431;root;20;2;0;I;0;0;0;0;0;0;0;27;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/u322:10-flush-253:0
+20261103;20:02:34;997433;root;20;353593;0;S;21112;0;13104;1608;132;572;11252;70;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: ljsanders [priv] 
+20261103;20:02:34;997442;ljsanders;20;997433;0;S;21320;0;8200;1816;132;572;11252;73;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;sshd: ljsanders@notty 
+20261103;20:02:34;997443;ljsanders;20;997442;0;S;5736;0;2068;360;132;16;1660;7;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;cat 
+20261103;20:02:34;997668;root;20;2;0;I;0;0;0;0;0;0;0;38;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/38:1-mm_percpu_wq
+20261103;20:02:34;997909;root;20;2;0;I;0;0;0;0;0;0;0;63;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/63:2-events
+20261103;20:02:34;997980;root;20;2;0;I;0;0;0;0;0;0;0;43;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/43:0-cgroup_destroy
+20261103;20:02:34;998015;root;20;2;0;I;0;0;0;0;0;0;0;39;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/39:1-events
+20261103;20:02:34;998974;root;20;2;0;I;0;0;0;0;0;0;0;0;0.02;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/0:1-mm_percpu_wq
+20261103;20:02:34;999032;root;20;2;0;I;0;0;0;0;0;0;0;26;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/26:2
+20261103;20:02:34;999757;root;20;2;0;I;0;0;0;0;0;0;0;31;0.00;0.00;0;0:00:00;0;0;0;0;0;0;0;0;0;kworker/31:0
