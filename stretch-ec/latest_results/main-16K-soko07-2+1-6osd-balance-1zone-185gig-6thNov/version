@@ -1,0 +1,2 @@
+ceph -v
+ceph version 21.3.0-4730-g11353e0e (11353e0e11f3b1f22ffc36a2ced37f67f2eac386) umbrella (dev)
