@@ -1,0 +1,314 @@
+/dev/nvme13n3: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=48
+fio-3.42-6-g219f
+Starting 1 process
+{
+  "fio version" : "fio-3.42-6-g219f",
+  "timestamp" : 1792062762,
+  "timestamp_ms" : 1792062762256,
+  "time" : "Thu Oct 15 07:12:42 2026",
+  "global options" : {
+    "rw" : "randread",
+    "ioengine" : "libaio",
+    "runtime" : "90",
+    "ramp_time" : "30",
+    "numjobs" : "1",
+    "direct" : "1",
+    "bs" : "4096B",
+    "iodepth" : "48",
+    "write_iops_log" : "/home/ljsanders/scripts/nvme/tmp/00000000/RawFio/osd_ra-00004096/op_size-00004096/concurrent_procs-032/randread/iodepth-048/output.22",
+    "write_bw_log" : "/home/ljsanders/scripts/nvme/tmp/00000000/RawFio/osd_ra-00004096/op_size-00004096/concurrent_procs-032/randread/iodepth-048/output.22",
+    "write_lat_log" : "/home/ljsanders/scripts/nvme/tmp/00000000/RawFio/osd_ra-00004096/op_size-00004096/concurrent_procs-032/randread/iodepth-048/output.22"
+  },
+  "jobs" : [
+    {
+      "jobname" : "/dev/nvme13n3",
+      "groupid" : 0,
+      "job_start" : 1792062671257,
+      "error" : 0,
+      "eta" : 0,
+      "elapsed" : 122,
+      "job options" : {
+        "name" : "/dev/nvme13n3"
+      },
+      "read" : {
+        "io_bytes" : 2303537152,
+        "io_kbytes" : 2249548,
+        "bw_bytes" : 25592013,
+        "bw" : 24992,
+        "iops" : 6247.528052,
+        "runtime" : 90010,
+        "total_ios" : 562340,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 1024,
+          "max" : 31695278,
+          "mean" : 30198.294996,
+          "stddev" : 481680.353114,
+          "N" : 562340
+        },
+        "clat_ns" : {
+          "min" : 171684,
+          "max" : 63938267,
+          "mean" : 7637471.262426,
+          "stddev" : 7808004.044749,
+          "N" : 562387,
+          "percentile" : {
+            "1.000000" : 387072,
+            "5.000000" : 561152,
+            "10.000000" : 774144,
+            "20.000000" : 1286144,
+            "30.000000" : 1990656,
+            "40.000000" : 2965504,
+            "50.000000" : 4489216,
+            "60.000000" : 6782976,
+            "70.000000" : 9764864,
+            "80.000000" : 13697024,
+            "90.000000" : 19267584,
+            "95.000000" : 23724032,
+            "99.000000" : 32112640,
+            "99.500000" : 34865152,
+            "99.900000" : 42729472,
+            "99.950000" : 47448064,
+            "99.990000" : 54788096
+          }
+        },
+        "lat_ns" : {
+          "min" : 176880,
+          "max" : 69835135,
+          "mean" : 7667682.297798,
+          "stddev" : 7832885.936093,
+          "N" : 562387
+        },
+        "bw_min" : 64,
+        "bw_max" : 23857,
+        "bw_agg" : 7.706404,
+        "bw_mean" : 1926.984863,
+        "bw_dev" : 2370.310194,
+        "bw_samples" : 562387,
+        "iops_min" : 1,
+        "iops_max" : 1,
+        "iops_mean" : 1.000000,
+        "iops_stddev" : 0.000000,
+        "iops_samples" : 562387
+      },
+      "write" : {
+        "io_bytes" : 0,
+        "io_kbytes" : 0,
+        "bw_bytes" : 0,
+        "bw" : 0,
+        "iops" : 0.000000,
+        "runtime" : 0,
+        "total_ios" : 0,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "clat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "bw_min" : 0,
+        "bw_max" : 0,
+        "bw_agg" : 0.000000,
+        "bw_mean" : 0.000000,
+        "bw_dev" : 0.000000,
+        "bw_samples" : 0,
+        "iops_min" : 0,
+        "iops_max" : 0,
+        "iops_mean" : 0.000000,
+        "iops_stddev" : 0.000000,
+        "iops_samples" : 0
+      },
+      "trim" : {
+        "io_bytes" : 0,
+        "io_kbytes" : 0,
+        "bw_bytes" : 0,
+        "bw" : 0,
+        "iops" : 0.000000,
+        "runtime" : 0,
+        "total_ios" : 0,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "clat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "bw_min" : 0,
+        "bw_max" : 0,
+        "bw_agg" : 0.000000,
+        "bw_mean" : 0.000000,
+        "bw_dev" : 0.000000,
+        "bw_samples" : 0,
+        "iops_min" : 0,
+        "iops_max" : 0,
+        "iops_mean" : 0.000000,
+        "iops_stddev" : 0.000000,
+        "iops_samples" : 0
+      },
+      "sync" : {
+        "total_ios" : 0,
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        }
+      },
+      "job_runtime" : 90009,
+      "usr_cpu" : 1.699830,
+      "sys_cpu" : 3.084136,
+      "ctx" : 168817,
+      "majf" : 0,
+      "minf" : 8402,
+      "iodepth_level" : {
+        "1" : 0.100000,
+        "2" : 0.100000,
+        "4" : 0.100000,
+        "8" : 0.100000,
+        "16" : 0.100000,
+        "32" : 99.950386,
+        ">=64" : 0.000000
+      },
+      "iodepth_submit" : {
+        "0" : 0.000000,
+        "4" : 100.000000,
+        "8" : 0.000000,
+        "16" : 0.000000,
+        "32" : 0.000000,
+        "64" : 0.000000,
+        ">=64" : 0.000000
+      },
+      "iodepth_complete" : {
+        "0" : 0.000000,
+        "4" : 99.999822,
+        "8" : 0.000000,
+        "16" : 0.000000,
+        "32" : 0.000000,
+        "64" : 0.100000,
+        ">=64" : 0.000000
+      },
+      "latency_ns" : {
+        "2" : 0.000000,
+        "4" : 0.000000,
+        "10" : 0.000000,
+        "20" : 0.000000,
+        "50" : 0.000000,
+        "100" : 0.000000,
+        "250" : 0.000000,
+        "500" : 0.000000,
+        "750" : 0.000000,
+        "1000" : 0.000000
+      },
+      "latency_us" : {
+        "2" : 0.000000,
+        "4" : 0.000000,
+        "10" : 0.000000,
+        "20" : 0.000000,
+        "50" : 0.000000,
+        "100" : 0.000000,
+        "250" : 0.010000,
+        "500" : 3.480812,
+        "750" : 6.039051,
+        "1000" : 5.222463
+      },
+      "latency_ms" : {
+        "2" : 15.365437,
+        "4" : 17.065299,
+        "10" : 23.379272,
+        "20" : 20.434790,
+        "50" : 8.979621,
+        "100" : 0.032009,
+        "250" : 0.000000,
+        "500" : 0.000000,
+        "750" : 0.000000,
+        "1000" : 0.000000,
+        "2000" : 0.000000,
+        ">=2000" : 0.000000
+      },
+      "latency_depth" : 48,
+      "latency_target" : 0,
+      "latency_target_ns" : 0,
+      "latency_percentile" : 100.000000,
+      "latency_window" : 0,
+      "latency_window_us" : 0
+    }
+  ],
+  "disk_util" : [
+    {
+      "name" : "nvme13n3",
+      "read_ios" : 745594,
+      "write_ios" : 0,
+      "read_sectors" : 5964752,
+      "write_sectors" : 0,
+      "read_merges" : 0,
+      "write_merges" : 0,
+      "read_ticks" : 5519391,
+      "write_ticks" : 0,
+      "in_queue" : 5519391,
+      "util" : 99.300722
+    }
+  ]
+}
+
+/dev/nvme13n3: (groupid=0, jobs=1): err= 0: pid=613974: Thu Oct 15 07:12:42 2026
+  read: IOPS=6247, BW=24.4MiB/s (25.6MB/s)(2197MiB/90010msec)
+    slat (nsec): min=1024, max=31695k, avg=30198.29, stdev=481680.35
+    clat (usec): min=171, max=63938, avg=7637.47, stdev=7808.00
+     lat (usec): min=176, max=69835, avg=7667.68, stdev=7832.89
+    clat percentiles (usec):
+     |  1.00th=[  388],  5.00th=[  562], 10.00th=[  775], 20.00th=[ 1287],
+     | 30.00th=[ 1991], 40.00th=[ 2966], 50.00th=[ 4490], 60.00th=[ 6783],
+     | 70.00th=[ 9765], 80.00th=[13698], 90.00th=[19268], 95.00th=[23725],
+     | 99.00th=[32113], 99.50th=[34866], 99.90th=[42730], 99.95th=[47449],
+     | 99.99th=[54789]
+   bw (  KiB/s): min=   64, max=23857, per=7.71%, avg=1926.98, stdev=2370.31, samples=562387
+   iops        : min=    1, max=    1, avg= 1.00, stdev= 0.00, samples=562387
+  lat (usec)   : 250=0.01%, 500=3.48%, 750=6.04%, 1000=5.22%
+  lat (msec)   : 2=15.37%, 4=17.07%, 10=23.38%, 20=20.43%, 50=8.98%
+  lat (msec)   : 100=0.03%
+  cpu          : usr=1.70%, sys=3.08%, ctx=168817, majf=0, minf=8402
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=100.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued rwts: total=562340,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0.00ns, window=0.00ns, percentile=100.00%, depth=48
+
+Run status group 0 (all jobs):
+   READ: bw=24.4MiB/s (25.6MB/s), 24.4MiB/s-24.4MiB/s (25.6MB/s-25.6MB/s), io=2197MiB (2304MB), run=90010-90010msec
+
+Disk stats (read/write):
+  nvme13n3: ios=745594/0, sectors=5964752/0, merge=0/0, ticks=5519391/0, in_queue=5519391, util=99.30%
