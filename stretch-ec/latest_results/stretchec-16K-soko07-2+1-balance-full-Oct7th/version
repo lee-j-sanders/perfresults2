@@ -1,0 +1,3 @@
+ceph -vceph -v[ceph: root@soko07 /]# ceph -v
+ceph version 21.3.0-3281-ge1beb5b5 (e1beb5b513e29157b5be802df513b4805058405f) umbrella (dev)
+[ceph: root@soko07 /]#
